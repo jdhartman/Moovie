@@ -11,7 +11,9 @@ import UIKit
 class SecondViewController: UIViewController {
 
     override var preferredStatusBarStyle: UIStatusBarStyle {
+        print("Hey Theo")
         return .lightContent
+        
     }
     
     override func viewDidLoad() {
