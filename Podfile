@@ -8,8 +8,8 @@ target 'Moovie' do
   use_frameworks!
 
   # Pods for Moovie
-
-  pod 'BEMCheckBox'
+  
+  pod 'M13Checkbox', '~> 3.1'
   
   target 'MoovieTests' do
     inherit! :search_paths

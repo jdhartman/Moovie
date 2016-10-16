@@ -1,12 +1,12 @@
 PODS:
-  - BEMCheckBox (1.2.1)
+  - M13Checkbox (3.1.1)
 
 DEPENDENCIES:
-  - BEMCheckBox
+  - M13Checkbox (~> 3.1)
 
 SPEC CHECKSUMS:
-  BEMCheckBox: 264b8b72aa92adbfefa265cc58a0cdb86b207b9f
+  M13Checkbox: 64a49ded40e7047e0bef255b73c8c533b7c66bdd
 
-PODFILE CHECKSUM: 1e65d8df38983f8b20ae388d9ecfc8e9278096be
+PODFILE CHECKSUM: d6b4d7584536c8fb0d4b44b217776dc3fbc55391
 
 COCOAPODS: 1.0.0
