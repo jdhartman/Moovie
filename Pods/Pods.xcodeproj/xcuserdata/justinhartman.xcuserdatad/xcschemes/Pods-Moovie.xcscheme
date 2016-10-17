@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0800"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A30DAB5ACA812C514852FF4D7B110EE9"
+               BlueprintIdentifier = "6936D9887FE6C87F779A3F38F45DCA4B"
                BuildableName = "Pods_Moovie.framework"
                BlueprintName = "Pods-Moovie"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A30DAB5ACA812C514852FF4D7B110EE9"
+            BlueprintIdentifier = "6936D9887FE6C87F779A3F38F45DCA4B"
             BuildableName = "Pods_Moovie.framework"
             BlueprintName = "Pods-Moovie"
             ReferencedContainer = "container:Pods.xcodeproj">
@@ -60,15 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A30DAB5ACA812C514852FF4D7B110EE9"
-            BuildableName = "Pods_Moovie.framework"
-            BlueprintName = "Pods-Moovie"
-            ReferencedContainer = "container:Pods.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

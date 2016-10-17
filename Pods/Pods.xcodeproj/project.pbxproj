@@ -1,2423 +1,1285 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>05A9E03AF7B70C466A3ACA33A7DDF176</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-MoovieUITests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>06A52C67F0C45F2B3E1733CC04BAF14C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D5E74CD751EE635BB9A92260EA5F4577</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>08B908883E5F96B384BC9ADAAFD49535</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>DDBDD962ABACA1A244AC83D4F35D1C69</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/M13Checkbox/M13Checkbox-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/M13Checkbox/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/M13Checkbox/M13Checkbox.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>M13Checkbox</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>0A68FE8A6158D395EC4CB10F8472F165</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B4CCDF0ACEE37ED4308724E62FCDE939</string>
-				<string>3C9854452B704969D40D932335DEE0FF</string>
-				<string>0F2331BAF78D4EDDCD400CF6388C7978</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0B31F80796C061AF8091D52542BBE6D3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-MoovieUITests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0DAFA794AF5FC68BAE578F7A2A6CB530</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-MoovieTests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0F2331BAF78D4EDDCD400CF6388C7978</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>0F93834CD98074F5EBE49A489F624EE8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>M13CheckboxDisclosurePathGenerator.swift</string>
-			<key>path</key>
-			<string>Sources/Paths/M13CheckboxDisclosurePathGenerator.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0FE2FE339D9293F5F14AAF690E3701AD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>M13Checkbox-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>118BF750937D7758A8AA5D79ABD83476</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-MoovieUITests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>11E72E640456E6D61B92773E1A87DF17</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>M13CheckboxFadeController.swift</string>
-			<key>path</key>
-			<string>Sources/Managers/M13CheckboxFadeController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>122DA2E5084A4393C29BE363C764795C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0A68FE8A6158D395EC4CB10F8472F165</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>155AD8C6BA2E317635B3350D01BDE955</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>DDBDD962ABACA1A244AC83D4F35D1C69</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/M13Checkbox/M13Checkbox-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/M13Checkbox/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/M13Checkbox/M13Checkbox.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>M13Checkbox</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>1A485F8D5894396022E0AD1FFA160FFB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>290973E2772E414D936A27E54FA569D0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1B24FB74A38BA77EE5C735BA999ABE17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC0BFAA62ABA68B423971339C7A71ECF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1BF2247BF9F39E7FB9935E2137887998</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D31FEFAA7A261528CE59A5AB04CFDDD3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1D665EF2AE83FCA7A3CC8B4DDC4CED6D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-MoovieTests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1EF9F2E9FBAE665202191AC2AEEA5A18</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>M13CheckboxExpandController.swift</string>
-			<key>path</key>
-			<string>Sources/Managers/M13CheckboxExpandController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>201EF9AD549CACB83DCA32CB122E85BF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C0433ED054D23BF21955976C70C38115</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2097E23913270016DCEBF80CF7431EB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C1056A6610D825BD64436DD91BEAEDC4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2103EED30136731A54EA8C411252148D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-MoovieUITests.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>21960301152A8FADC658B1FFD7DD8746</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-MoovieUITests-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>23FA9240936DD5CE494ECEF80A7F0DB4</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_MoovieTests.framework</string>
-			<key>path</key>
-			<string>Pods-MoovieTests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>273599B4CB822A30EA751260B406877F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>06A52C67F0C45F2B3E1733CC04BAF14C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>290973E2772E414D936A27E54FA569D0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>M13CheckboxRadioPathGenerator.swift</string>
-			<key>path</key>
-			<string>Sources/Paths/M13CheckboxRadioPathGenerator.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2984BF8F607A12B43A476B33D0083661</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D15D59427260A9466F112BBFDAF4755F</string>
-				<string>2103EED30136731A54EA8C411252148D</string>
-				<string>0B31F80796C061AF8091D52542BBE6D3</string>
-				<string>05A9E03AF7B70C466A3ACA33A7DDF176</string>
-				<string>5B07FDDAFE6895834F578CA97510545A</string>
-				<string>5D27D081A0766B589D2DF3695C2C50C4</string>
-				<string>DEF475E448DD2CB8A60D74C1B4BFC708</string>
-				<string>21960301152A8FADC658B1FFD7DD8746</string>
-				<string>B819EEBAD8CBE0450CDC1454C0C44005</string>
-				<string>118BF750937D7758A8AA5D79ABD83476</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-MoovieUITests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-MoovieUITests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A4B5DCBF10063A015D15537CF98FDDD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0F2331BAF78D4EDDCD400CF6388C7978</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2BDB908C1DF8B990731E7AE05013D21F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Moovie.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>AE9439C22469D35336242DD983DB5C5F</string>
-				<string>42287DDF97330524BA3EF220F0276DA6</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>2F94AE6F64BBB0A04FF4F884E3128E8E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B4CCDF0ACEE37ED4308724E62FCDE939</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>31B827A0CCF2884D4497490335806F72</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2DB48EA2FE37876B45D6663E6E42F66</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>37922C46EB57CD264A04C85E1A5D307F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>M13CheckboxGestureRecognizer.swift</string>
-			<key>path</key>
-			<string>Sources/M13CheckboxGestureRecognizer.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>38E9A0C30163B0DACDBE873D28F8F285</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FE9FE97E237ACAB6099D3B4ABC72DCCD</string>
-				<string>5AE86CEF0A28C74415553EFA62DCA9E2</string>
-				<string>23FA9240936DD5CE494ECEF80A7F0DB4</string>
-				<string>A973B5D62F4190337828E3C1E9BCEF80</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>39A204FCB78FFA83E996C40FF3B4AC11</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>C3BF7F4DE56B5994C5B620209929752B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>C940B65E25426FCB26DE3776C74EBBD5</string>
-				<string>DAB41FC172418755E36B3C5A651E42D0</string>
-				<string>4F702BB665B25A8452C12B805AC342CB</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>M13Checkbox</string>
-			<key>productName</key>
-			<string>M13Checkbox</string>
-			<key>productReference</key>
-			<string>FE9FE97E237ACAB6099D3B4ABC72DCCD</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>39B586D88467674A956F18EDD7C9BF1D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>AF436B5BBB576FC7123DD9772E63CF97</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-MoovieTests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-MoovieTests/Pods-MoovieTests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_MoovieTests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>39DF5D7A578B7CAB800B0315E947DA64</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>5AF62F6D0E2CA957403E52325820D46A</string>
-				<string>54E33BE6A51CDF1C15D43D439DE93C6B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>3B1F251D0AFAA4A5F7FCA6A6EFC20C72</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-Moovie.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3C9854452B704969D40D932335DEE0FF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>3D6AF2BB6A417AE105E0EDC4F2C6D96E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>M13Checkbox+IB.swift</string>
-			<key>path</key>
-			<string>Sources/M13Checkbox+IB.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3E1B284E84344B163BE62B0E93422227</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Moovie-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3EAEA76655C44E7456E2FC7A50B14BC8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>44A7FF35D9AC46974AAE09B6006F35D7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>40CBAC8C47792C8A2560EEB55E42346F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4EC636134A234526C7BE31EC85ED4F11</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>42287DDF97330524BA3EF220F0276DA6</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>POD_CONFIGURATION_RELEASE=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>43D7D08ED8AAD7C89D3CE4ECA0BE6D99</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B9870FF8D8BF4F59504FB90440400DA4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>44A7FF35D9AC46974AAE09B6006F35D7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>54E63F84AFD6B1CEC6742A81FBBE2E6D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>4556C68DC24B9DDAE804AF83D7BF5309</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-MoovieTests.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4B03CC7E096CD1C54DCBCA852A3FD4C1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-MoovieTests-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4B8E8F99D1CB140EFC1B7DEE3D9F0FE7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>M13Checkbox</string>
-			<key>target</key>
-			<string>39A204FCB78FFA83E996C40FF3B4AC11</string>
-			<key>targetProxy</key>
-			<string>EFFEC7360787F99A566A8CAB3F07F8D5</string>
-		</dict>
-		<key>4EC636134A234526C7BE31EC85ED4F11</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>M13CheckboxDotController.swift</string>
-			<key>path</key>
-			<string>Sources/Managers/M13CheckboxDotController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4F702BB665B25A8452C12B805AC342CB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D09F95680F0713A22C82A6D0EB527CD9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5382786754D0A0DE4F6A665A232FAB58</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>54E33BE6A51CDF1C15D43D439DE93C6B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>118BF750937D7758A8AA5D79ABD83476</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-MoovieUITests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-MoovieUITests/Pods-MoovieUITests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_MoovieUITests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>54E63F84AFD6B1CEC6742A81FBBE2E6D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Moovie-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5AE86CEF0A28C74415553EFA62DCA9E2</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_Moovie.framework</string>
-			<key>path</key>
-			<string>Pods-Moovie.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>5AF62F6D0E2CA957403E52325820D46A</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B819EEBAD8CBE0450CDC1454C0C44005</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-MoovieUITests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-MoovieUITests/Pods-MoovieUITests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_MoovieUITests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>5B07FDDAFE6895834F578CA97510545A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-MoovieUITests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5D27D081A0766B589D2DF3695C2C50C4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-MoovieUITests-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5D592141011A18F1F9D0923E80EC4B49</key>
-		<dict>
-			<key>fileRef</key>
-			<string>70C797BEB2EE46B7F38D742CA3F04017</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5DA55CEAC1D7A613CD15FA06E68861F4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>855F7712F6B9BF9E08E41362EFA62CAF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5E232599B46EB5C769F5E5E5B01B018A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>M13CheckboxAnimationGenerator.swift</string>
-			<key>path</key>
-			<string>Sources/M13CheckboxAnimationGenerator.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5FFE4BDE08AB8F9D38327CC8A95B2912</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Moovie-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>62AC1D4DA112EB05CF4D5917705A0381</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-MoovieTests-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6755351A91515B74AF555F06531B94E0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AC11C76668DF20EFB64A2C948D86C219</string>
-				<string>8627BC620B6C7C7E45D30E136690B475</string>
-				<string>DDBDD962ABACA1A244AC83D4F35D1C69</string>
-				<string>E6D8DE6EF3DFF6462F210730AAED61BC</string>
-				<string>7C28F48511775E238AD423B54695157A</string>
-				<string>0FE2FE339D9293F5F14AAF690E3701AD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/M13Checkbox</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6BD3C5F3E5B1A0B5481420A6B7F8CB2D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8B50CB958D9C9D601E9BD93B20BC9CC0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6E053FA47505B554E7C212EB61A986D7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BE555A42D40957881F377C58DD2C0439</string>
-				<string>3B1F251D0AFAA4A5F7FCA6A6EFC20C72</string>
-				<string>D45FEA169B669A7A5F42D51F96CA26B8</string>
-				<string>FF202BEF2F9517F62D082DB2FA1B6076</string>
-				<string>D5E74CD751EE635BB9A92260EA5F4577</string>
-				<string>3E1B284E84344B163BE62B0E93422227</string>
-				<string>5FFE4BDE08AB8F9D38327CC8A95B2912</string>
-				<string>54E63F84AFD6B1CEC6742A81FBBE2E6D</string>
-				<string>CBDAF7C3B2FC03CE1BEC3A5F2241EF0A</string>
-				<string>2BDB908C1DF8B990731E7AE05013D21F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Moovie</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Moovie</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>70C797BEB2EE46B7F38D742CA3F04017</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>M13CheckboxCheckPathGenerator.swift</string>
-			<key>path</key>
-			<string>Sources/Paths/M13CheckboxCheckPathGenerator.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>717A20E40BCA7D1DAAEDCD410E476DD2</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>39DF5D7A578B7CAB800B0315E947DA64</string>
-			<key>buildPhases</key>
-			<array>
-				<string>A09D4DB33FE738DC53338B9F551F81C4</string>
-				<string>9854E55A182107E44B48F8F04093B0A5</string>
-				<string>8EB79EDF5CEA74248BF6D108004218B8</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-MoovieUITests</string>
-			<key>productName</key>
-			<string>Pods-MoovieUITests</string>
-			<key>productReference</key>
-			<string>A973B5D62F4190337828E3C1E9BCEF80</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>785801E59735E740B66F08EFEB312107</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8BB3880A6D0BB81DF6EC558FE6F58C67</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7C28F48511775E238AD423B54695157A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>M13Checkbox-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>93A4A3777CF96A4AAC1D13BA6DCCEA73</string>
-				<string>122DA2E5084A4393C29BE363C764795C</string>
-				<string>1BF2247BF9F39E7FB9935E2137887998</string>
-				<string>38E9A0C30163B0DACDBE873D28F8F285</string>
-				<string>C16DE7A3B2766A157D3D98314ED3A4D4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7F824EF6510615083B03796F9DE19E72</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2BDB908C1DF8B990731E7AE05013D21F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Moovie/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Moovie/Pods-Moovie.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_Moovie</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>7FB7371C12AFE7ABE7418F9855A0EAB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5382786754D0A0DE4F6A665A232FAB58</string>
-				<string>4556C68DC24B9DDAE804AF83D7BF5309</string>
-				<string>0DAFA794AF5FC68BAE578F7A2A6CB530</string>
-				<string>B67C4D0D92A7DE3AE22E27751C77CB76</string>
-				<string>C1056A6610D825BD64436DD91BEAEDC4</string>
-				<string>62AC1D4DA112EB05CF4D5917705A0381</string>
-				<string>1D665EF2AE83FCA7A3CC8B4DDC4CED6D</string>
-				<string>4B03CC7E096CD1C54DCBCA852A3FD4C1</string>
-				<string>AF436B5BBB576FC7123DD9772E63CF97</string>
-				<string>B89C7F94822EB2630D8442C9C481CDC0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-MoovieTests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-MoovieTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>804C7201854744A61E37A7C3346A0D10</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E6D8DE6EF3DFF6462F210730AAED61BC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>80F05C3CF8BE816390219F1DE6901762</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9139361D6B937DAFD5037382560F09A4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>855F7712F6B9BF9E08E41362EFA62CAF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>M13Checkbox.swift</string>
-			<key>path</key>
-			<string>Sources/M13Checkbox.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8627BC620B6C7C7E45D30E136690B475</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>M13Checkbox.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8B50CB958D9C9D601E9BD93B20BC9CC0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>M13CheckboxPathGenerator.swift</string>
-			<key>path</key>
-			<string>Sources/Paths/M13CheckboxPathGenerator.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8BB3880A6D0BB81DF6EC558FE6F58C67</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>M13CheckboxSpiralController.swift</string>
-			<key>path</key>
-			<string>Sources/Managers/M13CheckboxSpiralController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8EB79EDF5CEA74248BF6D108004218B8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>AC68E405AAEDEB7D5A23B086B82AC5F3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9139361D6B937DAFD5037382560F09A4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3C9854452B704969D40D932335DEE0FF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>91F8B69ED3B1BFD1294F15ACECA49638</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3C9854452B704969D40D932335DEE0FF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9224E8A3C6C76CBA476853249200C572</key>
-		<dict>
-			<key>fileRef</key>
-			<string>37922C46EB57CD264A04C85E1A5D307F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>93A4A3777CF96A4AAC1D13BA6DCCEA73</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>text.script.ruby</string>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>96D1C9FA3286DC574702AAE884A8B3F0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3D6AF2BB6A417AE105E0EDC4F2C6D96E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9854E55A182107E44B48F8F04093B0A5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>91F8B69ED3B1BFD1294F15ACECA49638</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9937E968256B967D21EAB369A281E1B4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>M13CheckboxController.swift</string>
-			<key>path</key>
-			<string>Sources/M13CheckboxController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9DFB68718B029555D1A1625EE82ACEB8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3C9854452B704969D40D932335DEE0FF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9FFBBA71FFCCD243C0265CD34E6C97A5</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>CBDAF7C3B2FC03CE1BEC3A5F2241EF0A</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Moovie/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Moovie/Pods-Moovie.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_Moovie</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>A09D4DB33FE738DC53338B9F551F81C4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>DA7A8F673709254A9D0DBE2F785FE4BF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A973B5D62F4190337828E3C1E9BCEF80</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_MoovieUITests.framework</string>
-			<key>path</key>
-			<string>Pods-MoovieUITests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>AC11C76668DF20EFB64A2C948D86C219</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AC68E405AAEDEB7D5A23B086B82AC5F3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>21960301152A8FADC658B1FFD7DD8746</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>AC91F25226272C593CFD5642DE7A3050</key>
-		<dict>
-			<key>fileRef</key>
-			<string>11E72E640456E6D61B92773E1A87DF17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AE9439C22469D35336242DD983DB5C5F</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>POD_CONFIGURATION_DEBUG=1</string>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>AF436B5BBB576FC7123DD9772E63CF97</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-MoovieTests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B47BCFEE4B580192A88E8634191F33CA</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>9FFBBA71FFCCD243C0265CD34E6C97A5</string>
-				<string>7F824EF6510615083B03796F9DE19E72</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>B4CCDF0ACEE37ED4308724E62FCDE939</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>B67C4D0D92A7DE3AE22E27751C77CB76</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-MoovieTests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B6C5AACFD1D8181A7AF70967F7D485C6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4B03CC7E096CD1C54DCBCA852A3FD4C1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>B819EEBAD8CBE0450CDC1454C0C44005</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-MoovieUITests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B89C7F94822EB2630D8442C9C481CDC0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-MoovieTests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B9870FF8D8BF4F59504FB90440400DA4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>M13CheckboxStrokeController.swift</string>
-			<key>path</key>
-			<string>Sources/Managers/M13CheckboxStrokeController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B9FC630B8A4945AACB04A9526059523B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>M13CheckboxFillController.swift</string>
-			<key>path</key>
-			<string>Sources/Managers/M13CheckboxFillController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC0BFAA62ABA68B423971339C7A71ECF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>M13CheckboxBounceController.swift</string>
-			<key>path</key>
-			<string>Sources/Managers/M13CheckboxBounceController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BE555A42D40957881F377C58DD2C0439</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BEABFAD9FDB04159E2154CB79B347655</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3C9854452B704969D40D932335DEE0FF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C0433ED054D23BF21955976C70C38115</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>M13CheckboxAddRemovePathGenerator.swift</string>
-			<key>path</key>
-			<string>Sources/Paths/M13CheckboxAddRemovePathGenerator.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C1056A6610D825BD64436DD91BEAEDC4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-MoovieTests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C16DE7A3B2766A157D3D98314ED3A4D4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6E053FA47505B554E7C212EB61A986D7</string>
-				<string>7FB7371C12AFE7ABE7418F9855A0EAB0</string>
-				<string>2984BF8F607A12B43A476B33D0083661</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C3BF7F4DE56B5994C5B620209929752B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>08B908883E5F96B384BC9ADAAFD49535</string>
-				<string>155AD8C6BA2E317635B3350D01BDE955</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>C789A69CF95BD3DF60E8F15CAD5F13C4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B9FC630B8A4945AACB04A9526059523B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C940B65E25426FCB26DE3776C74EBBD5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>96D1C9FA3286DC574702AAE884A8B3F0</string>
-				<string>804C7201854744A61E37A7C3346A0D10</string>
-				<string>5DA55CEAC1D7A613CD15FA06E68861F4</string>
-				<string>201EF9AD549CACB83DCA32CB122E85BF</string>
-				<string>D96E3A40893AA4A1D4BFFCD9BAB2EFFE</string>
-				<string>1B24FB74A38BA77EE5C735BA999ABE17</string>
-				<string>5D592141011A18F1F9D0923E80EC4B49</string>
-				<string>DC29F96A006DEB0559EADB5F27D2DCEE</string>
-				<string>FF1AFB7E29980A77C576C36804757091</string>
-				<string>40CBAC8C47792C8A2560EEB55E42346F</string>
-				<string>CDC529F72C9CE32AD31CC0560BBB017D</string>
-				<string>AC91F25226272C593CFD5642DE7A3050</string>
-				<string>C789A69CF95BD3DF60E8F15CAD5F13C4</string>
-				<string>31B827A0CCF2884D4497490335806F72</string>
-				<string>9224E8A3C6C76CBA476853249200C572</string>
-				<string>6BD3C5F3E5B1A0B5481420A6B7F8CB2D</string>
-				<string>1A485F8D5894396022E0AD1FFA160FFB</string>
-				<string>785801E59735E740B66F08EFEB312107</string>
-				<string>43D7D08ED8AAD7C89D3CE4ECA0BE6D99</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C9C76841AA95FF726ED9650C880A6CC1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B6C5AACFD1D8181A7AF70967F7D485C6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>CBDAF7C3B2FC03CE1BEC3A5F2241EF0A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Moovie.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CDC529F72C9CE32AD31CC0560BBB017D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1EF9F2E9FBAE665202191AC2AEEA5A18</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D09F95680F0713A22C82A6D0EB527CD9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0FE2FE339D9293F5F14AAF690E3701AD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>D15D59427260A9466F112BBFDAF4755F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D31FEFAA7A261528CE59A5AB04CFDDD3</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>855F7712F6B9BF9E08E41362EFA62CAF</string>
-				<string>3D6AF2BB6A417AE105E0EDC4F2C6D96E</string>
-				<string>C0433ED054D23BF21955976C70C38115</string>
-				<string>5E232599B46EB5C769F5E5E5B01B018A</string>
-				<string>BC0BFAA62ABA68B423971339C7A71ECF</string>
-				<string>70C797BEB2EE46B7F38D742CA3F04017</string>
-				<string>9937E968256B967D21EAB369A281E1B4</string>
-				<string>0F93834CD98074F5EBE49A489F624EE8</string>
-				<string>4EC636134A234526C7BE31EC85ED4F11</string>
-				<string>1EF9F2E9FBAE665202191AC2AEEA5A18</string>
-				<string>11E72E640456E6D61B92773E1A87DF17</string>
-				<string>B9FC630B8A4945AACB04A9526059523B</string>
-				<string>E2DB48EA2FE37876B45D6663E6E42F66</string>
-				<string>37922C46EB57CD264A04C85E1A5D307F</string>
-				<string>8B50CB958D9C9D601E9BD93B20BC9CC0</string>
-				<string>290973E2772E414D936A27E54FA569D0</string>
-				<string>8BB3880A6D0BB81DF6EC558FE6F58C67</string>
-				<string>B9870FF8D8BF4F59504FB90440400DA4</string>
-				<string>6755351A91515B74AF555F06531B94E0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>M13Checkbox</string>
-			<key>path</key>
-			<string>M13Checkbox</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D41D8CD98F00B204E9800998ECF8427E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0730</string>
-				<key>LastUpgradeCheck</key>
-				<string>0700</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7DB346D0F39D3F0E887471402A8071AB</string>
-			<key>productRefGroup</key>
-			<string>38E9A0C30163B0DACDBE873D28F8F285</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>39A204FCB78FFA83E996C40FF3B4AC11</string>
-				<string>E0B9843968E7B401125E8FE1FA56DA1A</string>
-				<string>F275DD89F3C907CAB5096D16F7F4810B</string>
-				<string>717A20E40BCA7D1DAAEDCD410E476DD2</string>
-			</array>
-		</dict>
-		<key>D45FEA169B669A7A5F42D51F96CA26B8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-Moovie-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D466457CD2DC382D578CCB822F319787</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BEABFAD9FDB04159E2154CB79B347655</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D5E74CD751EE635BB9A92260EA5F4577</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Moovie-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D96E3A40893AA4A1D4BFFCD9BAB2EFFE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5E232599B46EB5C769F5E5E5B01B018A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DA7A8F673709254A9D0DBE2F785FE4BF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5B07FDDAFE6895834F578CA97510545A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DAB41FC172418755E36B3C5A651E42D0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2F94AE6F64BBB0A04FF4F884E3128E8E</string>
-				<string>9DFB68718B029555D1A1625EE82ACEB8</string>
-				<string>2A4B5DCBF10063A015D15537CF98FDDD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>DAE03CB003C8F6F960E8279C6D76A6FF</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B89C7F94822EB2630D8442C9C481CDC0</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-MoovieTests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-MoovieTests/Pods-MoovieTests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_MoovieTests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>DC29F96A006DEB0559EADB5F27D2DCEE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9937E968256B967D21EAB369A281E1B4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DD8636D5F14A97EADE2067B7509714AE</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>39B586D88467674A956F18EDD7C9BF1D</string>
-				<string>DAE03CB003C8F6F960E8279C6D76A6FF</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>DDBDD962ABACA1A244AC83D4F35D1C69</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>M13Checkbox.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DEF475E448DD2CB8A60D74C1B4BFC708</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-MoovieUITests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E0B9843968E7B401125E8FE1FA56DA1A</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>B47BCFEE4B580192A88E8634191F33CA</string>
-			<key>buildPhases</key>
-			<array>
-				<string>273599B4CB822A30EA751260B406877F</string>
-				<string>80F05C3CF8BE816390219F1DE6901762</string>
-				<string>3EAEA76655C44E7456E2FC7A50B14BC8</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>4B8E8F99D1CB140EFC1B7DEE3D9F0FE7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Moovie</string>
-			<key>productName</key>
-			<string>Pods-Moovie</string>
-			<key>productReference</key>
-			<string>5AE86CEF0A28C74415553EFA62DCA9E2</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>E2DB48EA2FE37876B45D6663E6E42F66</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>M13CheckboxFlatController.swift</string>
-			<key>path</key>
-			<string>Sources/Managers/M13CheckboxFlatController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E6D8DE6EF3DFF6462F210730AAED61BC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>M13Checkbox-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDC8D7186C473445B236CA9DDA020836</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2097E23913270016DCEBF80CF7431EB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EFFEC7360787F99A566A8CAB3F07F8D5</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>39A204FCB78FFA83E996C40FF3B4AC11</string>
-			<key>remoteInfo</key>
-			<string>M13Checkbox</string>
-		</dict>
-		<key>F275DD89F3C907CAB5096D16F7F4810B</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>DD8636D5F14A97EADE2067B7509714AE</string>
-			<key>buildPhases</key>
-			<array>
-				<string>EDC8D7186C473445B236CA9DDA020836</string>
-				<string>D466457CD2DC382D578CCB822F319787</string>
-				<string>C9C76841AA95FF726ED9650C880A6CC1</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-MoovieTests</string>
-			<key>productName</key>
-			<string>Pods-MoovieTests</string>
-			<key>productReference</key>
-			<string>23FA9240936DD5CE494ECEF80A7F0DB4</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>FE9FE97E237ACAB6099D3B4ABC72DCCD</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>M13Checkbox.framework</string>
-			<key>path</key>
-			<string>M13Checkbox.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>FF1AFB7E29980A77C576C36804757091</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0F93834CD98074F5EBE49A489F624EE8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FF202BEF2F9517F62D082DB2FA1B6076</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-Moovie-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D41D8CD98F00B204E9800998ECF8427E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C1B4E9FFB8B81E8833A3BAD537B1990 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EECD0653B611DDD4CCFCFBCE539656 /* Notifications.swift */; };
+		0E31E051E0FEBA8F3483206B64FF4956 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 616921CEC93A779950E4A152BF959DC8 /* SwiftyJSON-dummy.m */; };
+		12118C354EFA36292F82A8D0CFCE45B2 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21923ED775FAE7F418EA0E10BC25D23B /* Request.swift */; };
+		1A485F8D5894396022E0AD1FFA160FFB /* M13CheckboxRadioPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7C115D7546E88BF89A4F86925A4B9B /* M13CheckboxRadioPathGenerator.swift */; };
+		1B24FB74A38BA77EE5C735BA999ABE17 /* M13CheckboxBounceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD54162C51BD2FFA91FFEFA1B5789F95 /* M13CheckboxBounceController.swift */; };
+		201EF9AD549CACB83DCA32CB122E85BF /* M13CheckboxAddRemovePathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71075744EE00948317BC4A9D7AE9967 /* M13CheckboxAddRemovePathGenerator.swift */; };
+		2097E23913270016DCEBF80CF7431EB0 /* Pods-MoovieTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1056A6610D825BD64436DD91BEAEDC4 /* Pods-MoovieTests-dummy.m */; };
+		2A4B5DCBF10063A015D15537CF98FDDD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2331BAF78D4EDDCD400CF6388C7978 /* UIKit.framework */; };
+		2F94AE6F64BBB0A04FF4F884E3128E8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4CCDF0ACEE37ED4308724E62FCDE939 /* CoreGraphics.framework */; };
+		31B827A0CCF2884D4497490335806F72 /* M13CheckboxFlatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD801DA707156AAF60F68164872396A /* M13CheckboxFlatController.swift */; };
+		3982B850C43B41BA6D25F440F0412E9B /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460266E0E423CB6A7B5EE6966937ECD5 /* Timeline.swift */; };
+		40CBAC8C47792C8A2560EEB55E42346F /* M13CheckboxDotController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2E1C423A623705E5C813B1E8E48339 /* M13CheckboxDotController.swift */; };
+		43D7D08ED8AAD7C89D3CE4ECA0BE6D99 /* M13CheckboxStrokeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C79CC00A6AB3622850BC8DF341B337 /* M13CheckboxStrokeController.swift */; };
+		45468F43FABFD0C2622808A0A69379D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		5D592141011A18F1F9D0923E80EC4B49 /* M13CheckboxCheckPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB9200F906D0876E4500B9E18215CE6 /* M13CheckboxCheckPathGenerator.swift */; };
+		5DA55CEAC1D7A613CD15FA06E68861F4 /* M13Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7D8FEF4EBE02CCD4D20652E4560B20 /* M13Checkbox.swift */; };
+		62143065F94E53F437DCE5D7A998D66D /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC49B4A479D35DDB6EC5B682EC75395 /* AFError.swift */; };
+		663F42F54C7BE10936FA50BF6172964D /* Pods-Moovie-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54E63F84AFD6B1CEC6742A81FBBE2E6D /* Pods-Moovie-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BD3C5F3E5B1A0B5481420A6B7F8CB2D /* M13CheckboxPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1841DB534F68951DB56452673194C248 /* M13CheckboxPathGenerator.swift */; };
+		6DD0E24788D1448C44C66B695609C51A /* Pods-Moovie-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E74CD751EE635BB9A92260EA5F4577 /* Pods-Moovie-dummy.m */; };
+		785801E59735E740B66F08EFEB312107 /* M13CheckboxSpiralController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A574A59E20D7AAE81AA1038F836473E5 /* M13CheckboxSpiralController.swift */; };
+		7CA5A9BA5246FDA8227233E310029392 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BD7C90AD64D3ACEC7928D81238D3F9 /* Alamofire.swift */; };
+		804C7201854744A61E37A7C3346A0D10 /* M13Checkbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F24C54448F4EEB10F9A3CB880705E5 /* M13Checkbox-dummy.m */; };
+		86ED08F33B7D357932A9AB743E9D9EA7 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EBEF3FAAE26901D4E5F98150098EE1 /* Response.swift */; };
+		8D463A0A4C65C02FDD5211F0F3C6F8B8 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B228F795F789A67D4A37B8CB9579DEA /* Alamofire-dummy.m */; };
+		907AB123FBC8BC9340D5B7350CE828DF /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB278368AC62161D21986242C3D5FD4 /* SessionDelegate.swift */; };
+		91C09AC2A52ED69A27C8D923139A006F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		91F8B69ED3B1BFD1294F15ACECA49638 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		9224E8A3C6C76CBA476853249200C572 /* M13CheckboxGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1958D55795A3CFF260A3D240BDE516A9 /* M13CheckboxGestureRecognizer.swift */; };
+		9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D33B11F1CA460ACA2AB426C48BABCF0D /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96D1C9FA3286DC574702AAE884A8B3F0 /* M13Checkbox+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7742F0D740FA0A53D0F4A2E3E8C65ADF /* M13Checkbox+IB.swift */; };
+		9DFB68718B029555D1A1625EE82ACEB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		A79AC30123B0C2177D67F6ED6A1B3215 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378EA22FB8C7D727D1D69C9B5422338 /* SessionManager.swift */; };
+		AC68E405AAEDEB7D5A23B086B82AC5F3 /* Pods-MoovieUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21960301152A8FADC658B1FFD7DD8746 /* Pods-MoovieUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC91F25226272C593CFD5642DE7A3050 /* M13CheckboxFadeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13683FF1806A4E4BDEF345E6193B7C87 /* M13CheckboxFadeController.swift */; };
+		AF158CAAF4DD319009AFC855DC995D90 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AD420F6378A90D10BEA955BFFFB632 /* ParameterEncoding.swift */; };
+		B6C5AACFD1D8181A7AF70967F7D485C6 /* Pods-MoovieTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B03CC7E096CD1C54DCBCA852A3FD4C1 /* Pods-MoovieTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8154C96802336E5DDA5CEE97C3180A0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71B0DCEE069738FAE3D7042372863B2 /* ResponseSerialization.swift */; };
+		BEABFAD9FDB04159E2154CB79B347655 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		C0AEA97E7684DDAD56998C0AE198A433 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C1CF28C0CDC40D9740B31D211FCD9F /* ServerTrustPolicy.swift */; };
+		C61C25F07A824B6EA5658A8E09C2BD4B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F4F8D6B9521012EB96BC6C5E5F274A /* SwiftyJSON.swift */; };
+		C789A69CF95BD3DF60E8F15CAD5F13C4 /* M13CheckboxFillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C263D91E62AB5D064F7612DF5E80B /* M13CheckboxFillController.swift */; };
+		C7A3408350643ADE1018826C766EE356 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569D86C3B55BB81B737FE95E8190436B /* MultipartFormData.swift */; };
+		CDC529F72C9CE32AD31CC0560BBB017D /* M13CheckboxExpandController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65E2D92BC2A7A05D00F9A654AAB97FC /* M13CheckboxExpandController.swift */; };
+		D09F95680F0713A22C82A6D0EB527CD9 /* M13Checkbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CD7F810DB95DA57360EB86CFBC58627 /* M13Checkbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D96E3A40893AA4A1D4BFFCD9BAB2EFFE /* M13CheckboxAnimationGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3FE2DF4EFAADD1A3153C3C23504BD2 /* M13CheckboxAnimationGenerator.swift */; };
+		DA7A8F673709254A9D0DBE2F785FE4BF /* Pods-MoovieUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B07FDDAFE6895834F578CA97510545A /* Pods-MoovieUITests-dummy.m */; };
+		DC29F96A006DEB0559EADB5F27D2DCEE /* M13CheckboxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CA5DF6423ADDB126E53B719AE6BA3B /* M13CheckboxController.swift */; };
+		DF1BBF94997A2F4248B42B25EA919EC2 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6521E044D5370B755F54935868C748E9 /* Result.swift */; };
+		E1F583CB4A68A928CD197250AA752926 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D4F6528F7667A94A27C4F0F2E86098 /* TaskDelegate.swift */; };
+		E2A1C34237B4E928E5F85C097F4C2551 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD77DC982FB8C05A0F6C90E569598463 /* DispatchQueue+Alamofire.swift */; };
+		E59BF19C0AFA68B741552319FC478C7B /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B6795C8A9004825F73C04F860FAC53 /* NetworkReachabilityManager.swift */; };
+		E85404DDAB32F701526691BC3CF4A36F /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AED3D1299BE7A43680A61882F207CEB /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE176B1657AF517F20DC92075022B467 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		FF1AFB7E29980A77C576C36804757091 /* M13CheckboxDisclosurePathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FC6A732C8E3CB0951E42C49F7E1B2C /* M13CheckboxDisclosurePathGenerator.swift */; };
+		FFFDD494EE6D1B83DDAF5F2721F685A6 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E679D56CA6C46BEF892CC7BFD19A603 /* Validation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1306CEE29E4EA52FA0841CFED204035F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1A410F18FCE21741D3384B1D5BAC7D7;
+			remoteInfo = SwiftyJSON;
+		};
+		838A4C50E113E631780CE1E8D4D0FB9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39A204FCB78FFA83E996C40FF3B4AC11;
+			remoteInfo = M13Checkbox;
+		};
+		9AC4F98CA78A8F44D2D54B1EA7F9CEC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79C040AFDDCE1BCBF6D8B5EB0B85887F;
+			remoteInfo = Alamofire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05A9E03AF7B70C466A3ACA33A7DDF176 /* Pods-MoovieUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoovieUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		071907251038C11E5A9D69D5B1C9EC5C /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		0B31F80796C061AF8091D52542BBE6D3 /* Pods-MoovieUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoovieUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0DAFA794AF5FC68BAE578F7A2A6CB530 /* Pods-MoovieTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoovieTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0EB9200F906D0876E4500B9E18215CE6 /* M13CheckboxCheckPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxCheckPathGenerator.swift; path = Sources/Paths/M13CheckboxCheckPathGenerator.swift; sourceTree = "<group>"; };
+		0F2331BAF78D4EDDCD400CF6388C7978 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		118BF750937D7758A8AA5D79ABD83476 /* Pods-MoovieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoovieUITests.release.xcconfig"; sourceTree = "<group>"; };
+		13683FF1806A4E4BDEF345E6193B7C87 /* M13CheckboxFadeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFadeController.swift; path = Sources/Managers/M13CheckboxFadeController.swift; sourceTree = "<group>"; };
+		1841DB534F68951DB56452673194C248 /* M13CheckboxPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxPathGenerator.swift; path = Sources/Paths/M13CheckboxPathGenerator.swift; sourceTree = "<group>"; };
+		1958D55795A3CFF260A3D240BDE516A9 /* M13CheckboxGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxGestureRecognizer.swift; path = Sources/M13CheckboxGestureRecognizer.swift; sourceTree = "<group>"; };
+		1D665EF2AE83FCA7A3CC8B4DDC4CED6D /* Pods-MoovieTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoovieTests-resources.sh"; sourceTree = "<group>"; };
+		2103EED30136731A54EA8C411252148D /* Pods-MoovieUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MoovieUITests.modulemap"; sourceTree = "<group>"; };
+		21923ED775FAE7F418EA0E10BC25D23B /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		21960301152A8FADC658B1FFD7DD8746 /* Pods-MoovieUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoovieUITests-umbrella.h"; sourceTree = "<group>"; };
+		22F24C54448F4EEB10F9A3CB880705E5 /* M13Checkbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M13Checkbox-dummy.m"; sourceTree = "<group>"; };
+		2358B3B7D92180B61B01DF2FA80BB096 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		2BDB908C1DF8B990731E7AE05013D21F /* Pods-Moovie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Moovie.release.xcconfig"; sourceTree = "<group>"; };
+		3B1F251D0AFAA4A5F7FCA6A6EFC20C72 /* Pods-Moovie.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Moovie.modulemap"; sourceTree = "<group>"; };
+		3C9854452B704969D40D932335DEE0FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E1B284E84344B163BE62B0E93422227 /* Pods-Moovie-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Moovie-frameworks.sh"; sourceTree = "<group>"; };
+		3E7C115D7546E88BF89A4F86925A4B9B /* M13CheckboxRadioPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxRadioPathGenerator.swift; path = Sources/Paths/M13CheckboxRadioPathGenerator.swift; sourceTree = "<group>"; };
+		4556C68DC24B9DDAE804AF83D7BF5309 /* Pods-MoovieTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MoovieTests.modulemap"; sourceTree = "<group>"; };
+		460266E0E423CB6A7B5EE6966937ECD5 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		4915576C828287016C636352A6C8D7E1 /* M13Checkbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = M13Checkbox.modulemap; sourceTree = "<group>"; };
+		4A7D8FEF4EBE02CCD4D20652E4560B20 /* M13Checkbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13Checkbox.swift; path = Sources/M13Checkbox.swift; sourceTree = "<group>"; };
+		4B03CC7E096CD1C54DCBCA852A3FD4C1 /* Pods-MoovieTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoovieTests-umbrella.h"; sourceTree = "<group>"; };
+		5382786754D0A0DE4F6A665A232FAB58 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54E63F84AFD6B1CEC6742A81FBBE2E6D /* Pods-Moovie-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Moovie-umbrella.h"; sourceTree = "<group>"; };
+		569D86C3B55BB81B737FE95E8190436B /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		5A81DA957FCC539030B5ED9CFA0C06E5 /* Pods_MoovieUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoovieUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B07FDDAFE6895834F578CA97510545A /* Pods-MoovieUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoovieUITests-dummy.m"; sourceTree = "<group>"; };
+		5CD7F810DB95DA57360EB86CFBC58627 /* M13Checkbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-umbrella.h"; sourceTree = "<group>"; };
+		5D27D081A0766B589D2DF3695C2C50C4 /* Pods-MoovieUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoovieUITests-frameworks.sh"; sourceTree = "<group>"; };
+		5E679D56CA6C46BEF892CC7BFD19A603 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		5E902B0736D17889C39C8954AA872E62 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F08FCB24E590AB45D0F52EBD40A455E /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		5FFE4BDE08AB8F9D38327CC8A95B2912 /* Pods-Moovie-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Moovie-resources.sh"; sourceTree = "<group>"; };
+		616921CEC93A779950E4A152BF959DC8 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		62AC1D4DA112EB05CF4D5917705A0381 /* Pods-MoovieTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoovieTests-frameworks.sh"; sourceTree = "<group>"; };
+		63CA5DF6423ADDB126E53B719AE6BA3B /* M13CheckboxController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxController.swift; path = Sources/M13CheckboxController.swift; sourceTree = "<group>"; };
+		64C1CF28C0CDC40D9740B31D211FCD9F /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		6521E044D5370B755F54935868C748E9 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		67EBEF3FAAE26901D4E5F98150098EE1 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		69BD7C90AD64D3ACEC7928D81238D3F9 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		75FC6A732C8E3CB0951E42C49F7E1B2C /* M13CheckboxDisclosurePathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDisclosurePathGenerator.swift; path = Sources/Paths/M13CheckboxDisclosurePathGenerator.swift; sourceTree = "<group>"; };
+		76894C8D7B926C83810125DC510E99CD /* M13Checkbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M13Checkbox.xcconfig; sourceTree = "<group>"; };
+		7742F0D740FA0A53D0F4A2E3E8C65ADF /* M13Checkbox+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "M13Checkbox+IB.swift"; path = "Sources/M13Checkbox+IB.swift"; sourceTree = "<group>"; };
+		7AED3D1299BE7A43680A61882F207CEB /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		7C29F5237FAB75D9D1FAA0D34454A48E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C6C263D91E62AB5D064F7612DF5E80B /* M13CheckboxFillController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFillController.swift; path = Sources/Managers/M13CheckboxFillController.swift; sourceTree = "<group>"; };
+		7CD262AD635A5C411CD3CF3D9F7604D7 /* M13Checkbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M13Checkbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D4F6528F7667A94A27C4F0F2E86098 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		85F4F8D6B9521012EB96BC6C5E5F274A /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		91C79CC00A6AB3622850BC8DF341B337 /* M13CheckboxStrokeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxStrokeController.swift; path = Sources/Managers/M13CheckboxStrokeController.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9853959B28C0E0726457C648D0A28084 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		99EECD0653B611DDD4CCFCFBCE539656 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		9B228F795F789A67D4A37B8CB9579DEA /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		9C3FE2DF4EFAADD1A3153C3C23504BD2 /* M13CheckboxAnimationGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAnimationGenerator.swift; path = Sources/M13CheckboxAnimationGenerator.swift; sourceTree = "<group>"; };
+		9EED95BF0A25BB4DC439F186698EE5C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4AD420F6378A90D10BEA955BFFFB632 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		A574A59E20D7AAE81AA1038F836473E5 /* M13CheckboxSpiralController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxSpiralController.swift; path = Sources/Managers/M13CheckboxSpiralController.swift; sourceTree = "<group>"; };
+		ABB278368AC62161D21986242C3D5FD4 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		AD77DC982FB8C05A0F6C90E569598463 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		ADD801DA707156AAF60F68164872396A /* M13CheckboxFlatController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFlatController.swift; path = Sources/Managers/M13CheckboxFlatController.swift; sourceTree = "<group>"; };
+		AF436B5BBB576FC7123DD9772E63CF97 /* Pods-MoovieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoovieTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B378EA22FB8C7D727D1D69C9B5422338 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		B4CCDF0ACEE37ED4308724E62FCDE939 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		B67C4D0D92A7DE3AE22E27751C77CB76 /* Pods-MoovieTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoovieTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B71075744EE00948317BC4A9D7AE9967 /* M13CheckboxAddRemovePathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAddRemovePathGenerator.swift; path = Sources/Paths/M13CheckboxAddRemovePathGenerator.swift; sourceTree = "<group>"; };
+		B7B6795C8A9004825F73C04F860FAC53 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		B819EEBAD8CBE0450CDC1454C0C44005 /* Pods-MoovieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoovieUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B89C7F94822EB2630D8442C9C481CDC0 /* Pods-MoovieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoovieTests.release.xcconfig"; sourceTree = "<group>"; };
+		B9E59B497C9CD03B1C806A829E3C12B0 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		BE555A42D40957881F377C58DD2C0439 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEB2B2623C85C28DF7F9CDB2B261E84D /* Pods_MoovieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoovieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1056A6610D825BD64436DD91BEAEDC4 /* Pods-MoovieTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoovieTests-dummy.m"; sourceTree = "<group>"; };
+		C181E31A1D1B5637A4A1061473130744 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		C65E2D92BC2A7A05D00F9A654AAB97FC /* M13CheckboxExpandController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxExpandController.swift; path = Sources/Managers/M13CheckboxExpandController.swift; sourceTree = "<group>"; };
+		C6DB994CFA9B68E7A00E0C2F11D730ED /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB2E1C423A623705E5C813B1E8E48339 /* M13CheckboxDotController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDotController.swift; path = Sources/Managers/M13CheckboxDotController.swift; sourceTree = "<group>"; };
+		CBDAF7C3B2FC03CE1BEC3A5F2241EF0A /* Pods-Moovie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Moovie.debug.xcconfig"; sourceTree = "<group>"; };
+		CD54162C51BD2FFA91FFEFA1B5789F95 /* M13CheckboxBounceController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxBounceController.swift; path = Sources/Managers/M13CheckboxBounceController.swift; sourceTree = "<group>"; };
+		D15D59427260A9466F112BBFDAF4755F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33B11F1CA460ACA2AB426C48BABCF0D /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		D45FEA169B669A7A5F42D51F96CA26B8 /* Pods-Moovie-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Moovie-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D5E74CD751EE635BB9A92260EA5F4577 /* Pods-Moovie-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Moovie-dummy.m"; sourceTree = "<group>"; };
+		DEF475E448DD2CB8A60D74C1B4BFC708 /* Pods-MoovieUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoovieUITests-resources.sh"; sourceTree = "<group>"; };
+		E4F7DC93390147D68C7F3386C0CA4297 /* M13Checkbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-prefix.pch"; sourceTree = "<group>"; };
+		EE6B801AF12CA277F846D54DFC0ACB9A /* Pods_Moovie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moovie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F661EB5C5B5D294F144282A54CA87A11 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71B0DCEE069738FAE3D7042372863B2 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		FAC49B4A479D35DDB6EC5B682EC75395 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		FF202BEF2F9517F62D082DB2FA1B6076 /* Pods-Moovie-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Moovie-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BAD5B9E502C13D5168A118BAC50D198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE176B1657AF517F20DC92075022B467 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9854E55A182107E44B48F8F04093B0A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F8B69ED3B1BFD1294F15ACECA49638 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1729F851F648EC60EE93CDB3C8BAEAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C09AC2A52ED69A27C8D923139A006F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7544AB2516C534E16542AB72C5E68CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45468F43FABFD0C2622808A0A69379D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D466457CD2DC382D578CCB822F319787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEABFAD9FDB04159E2154CB79B347655 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB41FC172418755E36B3C5A651E42D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F94AE6F64BBB0A04FF4F884E3128E8E /* CoreGraphics.framework in Frameworks */,
+				9DFB68718B029555D1A1625EE82ACEB8 /* Foundation.framework in Frameworks */,
+				2A4B5DCBF10063A015D15537CF98FDDD /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A68FE8A6158D395EC4CB10F8472F165 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B4CCDF0ACEE37ED4308724E62FCDE939 /* CoreGraphics.framework */,
+				3C9854452B704969D40D932335DEE0FF /* Foundation.framework */,
+				0F2331BAF78D4EDDCD400CF6388C7978 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		0B0B47E41D20C730ED3DB12DFC9C660D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48E5CF7244302C26985CA642ECD38315 /* Alamofire */,
+				4541CCF8AD4569478642F5D9CEA69196 /* M13Checkbox */,
+				4AF3AE428EB08C0B717F6B6D06098034 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A68FE8A6158D395EC4CB10F8472F165 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2984BF8F607A12B43A476B33D0083661 /* Pods-MoovieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D15D59427260A9466F112BBFDAF4755F /* Info.plist */,
+				2103EED30136731A54EA8C411252148D /* Pods-MoovieUITests.modulemap */,
+				0B31F80796C061AF8091D52542BBE6D3 /* Pods-MoovieUITests-acknowledgements.markdown */,
+				05A9E03AF7B70C466A3ACA33A7DDF176 /* Pods-MoovieUITests-acknowledgements.plist */,
+				5B07FDDAFE6895834F578CA97510545A /* Pods-MoovieUITests-dummy.m */,
+				5D27D081A0766B589D2DF3695C2C50C4 /* Pods-MoovieUITests-frameworks.sh */,
+				DEF475E448DD2CB8A60D74C1B4BFC708 /* Pods-MoovieUITests-resources.sh */,
+				21960301152A8FADC658B1FFD7DD8746 /* Pods-MoovieUITests-umbrella.h */,
+				B819EEBAD8CBE0450CDC1454C0C44005 /* Pods-MoovieUITests.debug.xcconfig */,
+				118BF750937D7758A8AA5D79ABD83476 /* Pods-MoovieUITests.release.xcconfig */,
+			);
+			name = "Pods-MoovieUITests";
+			path = "Target Support Files/Pods-MoovieUITests";
+			sourceTree = "<group>";
+		};
+		4541CCF8AD4569478642F5D9CEA69196 /* M13Checkbox */ = {
+			isa = PBXGroup;
+			children = (
+				4A7D8FEF4EBE02CCD4D20652E4560B20 /* M13Checkbox.swift */,
+				7742F0D740FA0A53D0F4A2E3E8C65ADF /* M13Checkbox+IB.swift */,
+				B71075744EE00948317BC4A9D7AE9967 /* M13CheckboxAddRemovePathGenerator.swift */,
+				9C3FE2DF4EFAADD1A3153C3C23504BD2 /* M13CheckboxAnimationGenerator.swift */,
+				CD54162C51BD2FFA91FFEFA1B5789F95 /* M13CheckboxBounceController.swift */,
+				0EB9200F906D0876E4500B9E18215CE6 /* M13CheckboxCheckPathGenerator.swift */,
+				63CA5DF6423ADDB126E53B719AE6BA3B /* M13CheckboxController.swift */,
+				75FC6A732C8E3CB0951E42C49F7E1B2C /* M13CheckboxDisclosurePathGenerator.swift */,
+				CB2E1C423A623705E5C813B1E8E48339 /* M13CheckboxDotController.swift */,
+				C65E2D92BC2A7A05D00F9A654AAB97FC /* M13CheckboxExpandController.swift */,
+				13683FF1806A4E4BDEF345E6193B7C87 /* M13CheckboxFadeController.swift */,
+				7C6C263D91E62AB5D064F7612DF5E80B /* M13CheckboxFillController.swift */,
+				ADD801DA707156AAF60F68164872396A /* M13CheckboxFlatController.swift */,
+				1958D55795A3CFF260A3D240BDE516A9 /* M13CheckboxGestureRecognizer.swift */,
+				1841DB534F68951DB56452673194C248 /* M13CheckboxPathGenerator.swift */,
+				3E7C115D7546E88BF89A4F86925A4B9B /* M13CheckboxRadioPathGenerator.swift */,
+				A574A59E20D7AAE81AA1038F836473E5 /* M13CheckboxSpiralController.swift */,
+				91C79CC00A6AB3622850BC8DF341B337 /* M13CheckboxStrokeController.swift */,
+				6B168610D4FE90B0C8B7F03C44FF8D44 /* Support Files */,
+			);
+			path = M13Checkbox;
+			sourceTree = "<group>";
+		};
+		48E5CF7244302C26985CA642ECD38315 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				FAC49B4A479D35DDB6EC5B682EC75395 /* AFError.swift */,
+				69BD7C90AD64D3ACEC7928D81238D3F9 /* Alamofire.swift */,
+				AD77DC982FB8C05A0F6C90E569598463 /* DispatchQueue+Alamofire.swift */,
+				569D86C3B55BB81B737FE95E8190436B /* MultipartFormData.swift */,
+				B7B6795C8A9004825F73C04F860FAC53 /* NetworkReachabilityManager.swift */,
+				99EECD0653B611DDD4CCFCFBCE539656 /* Notifications.swift */,
+				A4AD420F6378A90D10BEA955BFFFB632 /* ParameterEncoding.swift */,
+				21923ED775FAE7F418EA0E10BC25D23B /* Request.swift */,
+				67EBEF3FAAE26901D4E5F98150098EE1 /* Response.swift */,
+				F71B0DCEE069738FAE3D7042372863B2 /* ResponseSerialization.swift */,
+				6521E044D5370B755F54935868C748E9 /* Result.swift */,
+				64C1CF28C0CDC40D9740B31D211FCD9F /* ServerTrustPolicy.swift */,
+				ABB278368AC62161D21986242C3D5FD4 /* SessionDelegate.swift */,
+				B378EA22FB8C7D727D1D69C9B5422338 /* SessionManager.swift */,
+				81D4F6528F7667A94A27C4F0F2E86098 /* TaskDelegate.swift */,
+				460266E0E423CB6A7B5EE6966937ECD5 /* Timeline.swift */,
+				5E679D56CA6C46BEF892CC7BFD19A603 /* Validation.swift */,
+				B4F11AA6A163E57B276BC1B8450A5277 /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		4AF3AE428EB08C0B717F6B6D06098034 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				85F4F8D6B9521012EB96BC6C5E5F274A /* SwiftyJSON.swift */,
+				DEE108043BBCB793BCC0944D0229D3A4 /* Support Files */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		6B168610D4FE90B0C8B7F03C44FF8D44 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E902B0736D17889C39C8954AA872E62 /* Info.plist */,
+				4915576C828287016C636352A6C8D7E1 /* M13Checkbox.modulemap */,
+				76894C8D7B926C83810125DC510E99CD /* M13Checkbox.xcconfig */,
+				22F24C54448F4EEB10F9A3CB880705E5 /* M13Checkbox-dummy.m */,
+				E4F7DC93390147D68C7F3386C0CA4297 /* M13Checkbox-prefix.pch */,
+				5CD7F810DB95DA57360EB86CFBC58627 /* M13Checkbox-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/M13Checkbox";
+			sourceTree = "<group>";
+		};
+		6E053FA47505B554E7C212EB61A986D7 /* Pods-Moovie */ = {
+			isa = PBXGroup;
+			children = (
+				BE555A42D40957881F377C58DD2C0439 /* Info.plist */,
+				3B1F251D0AFAA4A5F7FCA6A6EFC20C72 /* Pods-Moovie.modulemap */,
+				D45FEA169B669A7A5F42D51F96CA26B8 /* Pods-Moovie-acknowledgements.markdown */,
+				FF202BEF2F9517F62D082DB2FA1B6076 /* Pods-Moovie-acknowledgements.plist */,
+				D5E74CD751EE635BB9A92260EA5F4577 /* Pods-Moovie-dummy.m */,
+				3E1B284E84344B163BE62B0E93422227 /* Pods-Moovie-frameworks.sh */,
+				5FFE4BDE08AB8F9D38327CC8A95B2912 /* Pods-Moovie-resources.sh */,
+				54E63F84AFD6B1CEC6742A81FBBE2E6D /* Pods-Moovie-umbrella.h */,
+				CBDAF7C3B2FC03CE1BEC3A5F2241EF0A /* Pods-Moovie.debug.xcconfig */,
+				2BDB908C1DF8B990731E7AE05013D21F /* Pods-Moovie.release.xcconfig */,
+			);
+			name = "Pods-Moovie";
+			path = "Target Support Files/Pods-Moovie";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				0B0B47E41D20C730ED3DB12DFC9C660D /* Pods */,
+				D0F6D1D9FCE1CBBACE4D346ED475B5F7 /* Products */,
+				C16DE7A3B2766A157D3D98314ED3A4D4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7FB7371C12AFE7ABE7418F9855A0EAB0 /* Pods-MoovieTests */ = {
+			isa = PBXGroup;
+			children = (
+				5382786754D0A0DE4F6A665A232FAB58 /* Info.plist */,
+				4556C68DC24B9DDAE804AF83D7BF5309 /* Pods-MoovieTests.modulemap */,
+				0DAFA794AF5FC68BAE578F7A2A6CB530 /* Pods-MoovieTests-acknowledgements.markdown */,
+				B67C4D0D92A7DE3AE22E27751C77CB76 /* Pods-MoovieTests-acknowledgements.plist */,
+				C1056A6610D825BD64436DD91BEAEDC4 /* Pods-MoovieTests-dummy.m */,
+				62AC1D4DA112EB05CF4D5917705A0381 /* Pods-MoovieTests-frameworks.sh */,
+				1D665EF2AE83FCA7A3CC8B4DDC4CED6D /* Pods-MoovieTests-resources.sh */,
+				4B03CC7E096CD1C54DCBCA852A3FD4C1 /* Pods-MoovieTests-umbrella.h */,
+				AF436B5BBB576FC7123DD9772E63CF97 /* Pods-MoovieTests.debug.xcconfig */,
+				B89C7F94822EB2630D8442C9C481CDC0 /* Pods-MoovieTests.release.xcconfig */,
+			);
+			name = "Pods-MoovieTests";
+			path = "Target Support Files/Pods-MoovieTests";
+			sourceTree = "<group>";
+		};
+		B4F11AA6A163E57B276BC1B8450A5277 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9E59B497C9CD03B1C806A829E3C12B0 /* Alamofire.modulemap */,
+				C181E31A1D1B5637A4A1061473130744 /* Alamofire.xcconfig */,
+				9B228F795F789A67D4A37B8CB9579DEA /* Alamofire-dummy.m */,
+				071907251038C11E5A9D69D5B1C9EC5C /* Alamofire-prefix.pch */,
+				D33B11F1CA460ACA2AB426C48BABCF0D /* Alamofire-umbrella.h */,
+				9EED95BF0A25BB4DC439F186698EE5C8 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		C16DE7A3B2766A157D3D98314ED3A4D4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E053FA47505B554E7C212EB61A986D7 /* Pods-Moovie */,
+				7FB7371C12AFE7ABE7418F9855A0EAB0 /* Pods-MoovieTests */,
+				2984BF8F607A12B43A476B33D0083661 /* Pods-MoovieUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D0F6D1D9FCE1CBBACE4D346ED475B5F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6DB994CFA9B68E7A00E0C2F11D730ED /* Alamofire.framework */,
+				7CD262AD635A5C411CD3CF3D9F7604D7 /* M13Checkbox.framework */,
+				EE6B801AF12CA277F846D54DFC0ACB9A /* Pods_Moovie.framework */,
+				BEB2B2623C85C28DF7F9CDB2B261E84D /* Pods_MoovieTests.framework */,
+				5A81DA957FCC539030B5ED9CFA0C06E5 /* Pods_MoovieUITests.framework */,
+				F661EB5C5B5D294F144282A54CA87A11 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEE108043BBCB793BCC0944D0229D3A4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C29F5237FAB75D9D1FAA0D34454A48E /* Info.plist */,
+				9853959B28C0E0726457C648D0A28084 /* SwiftyJSON.modulemap */,
+				2358B3B7D92180B61B01DF2FA80BB096 /* SwiftyJSON.xcconfig */,
+				616921CEC93A779950E4A152BF959DC8 /* SwiftyJSON-dummy.m */,
+				5F08FCB24E590AB45D0F52EBD40A455E /* SwiftyJSON-prefix.pch */,
+				7AED3D1299BE7A43680A61882F207CEB /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4F702BB665B25A8452C12B805AC342CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09F95680F0713A22C82A6D0EB527CD9 /* M13Checkbox-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5162E7FFBBBE4CD5518640E5881B4C4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E85404DDAB32F701526691BC3CF4A36F /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB79EDF5CEA74248BF6D108004218B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC68E405AAEDEB7D5A23B086B82AC5F3 /* Pods-MoovieUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A123227280E9E7EE461D523CF49091F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663F42F54C7BE10936FA50BF6172964D /* Pods-Moovie-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C76841AA95FF726ED9650C880A6CC1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C5AACFD1D8181A7AF70967F7D485C6 /* Pods-MoovieTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDF3B631BBB965A372347705CA14854 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		39A204FCB78FFA83E996C40FF3B4AC11 /* M13Checkbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3BF7F4DE56B5994C5B620209929752B /* Build configuration list for PBXNativeTarget "M13Checkbox" */;
+			buildPhases = (
+				C940B65E25426FCB26DE3776C74EBBD5 /* Sources */,
+				DAB41FC172418755E36B3C5A651E42D0 /* Frameworks */,
+				4F702BB665B25A8452C12B805AC342CB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = M13Checkbox;
+			productName = M13Checkbox;
+			productReference = 7CD262AD635A5C411CD3CF3D9F7604D7 /* M13Checkbox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6936D9887FE6C87F779A3F38F45DCA4B /* Pods-Moovie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82849192F5D30F11E5410B2BDDEF5327 /* Build configuration list for PBXNativeTarget "Pods-Moovie" */;
+			buildPhases = (
+				E552065FE273E1CE672FF9FDFD242A28 /* Sources */,
+				6BAD5B9E502C13D5168A118BAC50D198 /* Frameworks */,
+				A123227280E9E7EE461D523CF49091F8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55E652C7E561AD380B9ABD82E25FC3B0 /* PBXTargetDependency */,
+				BC9347EE4CA52B73021C0D3B58F37500 /* PBXTargetDependency */,
+				D8DA9677B07DD78BB43C5168175626B2 /* PBXTargetDependency */,
+			);
+			name = "Pods-Moovie";
+			productName = "Pods-Moovie";
+			productReference = EE6B801AF12CA277F846D54DFC0ACB9A /* Pods_Moovie.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		717A20E40BCA7D1DAAEDCD410E476DD2 /* Pods-MoovieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39DF5D7A578B7CAB800B0315E947DA64 /* Build configuration list for PBXNativeTarget "Pods-MoovieUITests" */;
+			buildPhases = (
+				A09D4DB33FE738DC53338B9F551F81C4 /* Sources */,
+				9854E55A182107E44B48F8F04093B0A5 /* Frameworks */,
+				8EB79EDF5CEA74248BF6D108004218B8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MoovieUITests";
+			productName = "Pods-MoovieUITests";
+			productReference = 5A81DA957FCC539030B5ED9CFA0C06E5 /* Pods_MoovieUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CFB42910790CF0BDBCCEBAACD6B9367 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				120C4E824DDCCA024C170A491FF221A5 /* Sources */,
+				B1729F851F648EC60EE93CDB3C8BAEAD /* Frameworks */,
+				EFDF3B631BBB965A372347705CA14854 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = C6DB994CFA9B68E7A00E0C2F11D730ED /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C1A410F18FCE21741D3384B1D5BAC7D7 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82B9AA992C6D58CE284797FADAF4F22A /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				2CEFA85F9FAE000522C9A05D2F88EBAE /* Sources */,
+				B7544AB2516C534E16542AB72C5E68CB /* Frameworks */,
+				5162E7FFBBBE4CD5518640E5881B4C4B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = F661EB5C5B5D294F144282A54CA87A11 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F275DD89F3C907CAB5096D16F7F4810B /* Pods-MoovieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD8636D5F14A97EADE2067B7509714AE /* Build configuration list for PBXNativeTarget "Pods-MoovieTests" */;
+			buildPhases = (
+				EDC8D7186C473445B236CA9DDA020836 /* Sources */,
+				D466457CD2DC382D578CCB822F319787 /* Frameworks */,
+				C9C76841AA95FF726ED9650C880A6CC1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MoovieTests";
+			productName = "Pods-MoovieTests";
+			productReference = BEB2B2623C85C28DF7F9CDB2B261E84D /* Pods_MoovieTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D0F6D1D9FCE1CBBACE4D346ED475B5F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */,
+				39A204FCB78FFA83E996C40FF3B4AC11 /* M13Checkbox */,
+				6936D9887FE6C87F779A3F38F45DCA4B /* Pods-Moovie */,
+				F275DD89F3C907CAB5096D16F7F4810B /* Pods-MoovieTests */,
+				717A20E40BCA7D1DAAEDCD410E476DD2 /* Pods-MoovieUITests */,
+				C1A410F18FCE21741D3384B1D5BAC7D7 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		120C4E824DDCCA024C170A491FF221A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62143065F94E53F437DCE5D7A998D66D /* AFError.swift in Sources */,
+				8D463A0A4C65C02FDD5211F0F3C6F8B8 /* Alamofire-dummy.m in Sources */,
+				7CA5A9BA5246FDA8227233E310029392 /* Alamofire.swift in Sources */,
+				E2A1C34237B4E928E5F85C097F4C2551 /* DispatchQueue+Alamofire.swift in Sources */,
+				C7A3408350643ADE1018826C766EE356 /* MultipartFormData.swift in Sources */,
+				E59BF19C0AFA68B741552319FC478C7B /* NetworkReachabilityManager.swift in Sources */,
+				0C1B4E9FFB8B81E8833A3BAD537B1990 /* Notifications.swift in Sources */,
+				AF158CAAF4DD319009AFC855DC995D90 /* ParameterEncoding.swift in Sources */,
+				12118C354EFA36292F82A8D0CFCE45B2 /* Request.swift in Sources */,
+				86ED08F33B7D357932A9AB743E9D9EA7 /* Response.swift in Sources */,
+				B8154C96802336E5DDA5CEE97C3180A0 /* ResponseSerialization.swift in Sources */,
+				DF1BBF94997A2F4248B42B25EA919EC2 /* Result.swift in Sources */,
+				C0AEA97E7684DDAD56998C0AE198A433 /* ServerTrustPolicy.swift in Sources */,
+				907AB123FBC8BC9340D5B7350CE828DF /* SessionDelegate.swift in Sources */,
+				A79AC30123B0C2177D67F6ED6A1B3215 /* SessionManager.swift in Sources */,
+				E1F583CB4A68A928CD197250AA752926 /* TaskDelegate.swift in Sources */,
+				3982B850C43B41BA6D25F440F0412E9B /* Timeline.swift in Sources */,
+				FFFDD494EE6D1B83DDAF5F2721F685A6 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CEFA85F9FAE000522C9A05D2F88EBAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E31E051E0FEBA8F3483206B64FF4956 /* SwiftyJSON-dummy.m in Sources */,
+				C61C25F07A824B6EA5658A8E09C2BD4B /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A09D4DB33FE738DC53338B9F551F81C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7A8F673709254A9D0DBE2F785FE4BF /* Pods-MoovieUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C940B65E25426FCB26DE3776C74EBBD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D1C9FA3286DC574702AAE884A8B3F0 /* M13Checkbox+IB.swift in Sources */,
+				804C7201854744A61E37A7C3346A0D10 /* M13Checkbox-dummy.m in Sources */,
+				5DA55CEAC1D7A613CD15FA06E68861F4 /* M13Checkbox.swift in Sources */,
+				201EF9AD549CACB83DCA32CB122E85BF /* M13CheckboxAddRemovePathGenerator.swift in Sources */,
+				D96E3A40893AA4A1D4BFFCD9BAB2EFFE /* M13CheckboxAnimationGenerator.swift in Sources */,
+				1B24FB74A38BA77EE5C735BA999ABE17 /* M13CheckboxBounceController.swift in Sources */,
+				5D592141011A18F1F9D0923E80EC4B49 /* M13CheckboxCheckPathGenerator.swift in Sources */,
+				DC29F96A006DEB0559EADB5F27D2DCEE /* M13CheckboxController.swift in Sources */,
+				FF1AFB7E29980A77C576C36804757091 /* M13CheckboxDisclosurePathGenerator.swift in Sources */,
+				40CBAC8C47792C8A2560EEB55E42346F /* M13CheckboxDotController.swift in Sources */,
+				CDC529F72C9CE32AD31CC0560BBB017D /* M13CheckboxExpandController.swift in Sources */,
+				AC91F25226272C593CFD5642DE7A3050 /* M13CheckboxFadeController.swift in Sources */,
+				C789A69CF95BD3DF60E8F15CAD5F13C4 /* M13CheckboxFillController.swift in Sources */,
+				31B827A0CCF2884D4497490335806F72 /* M13CheckboxFlatController.swift in Sources */,
+				9224E8A3C6C76CBA476853249200C572 /* M13CheckboxGestureRecognizer.swift in Sources */,
+				6BD3C5F3E5B1A0B5481420A6B7F8CB2D /* M13CheckboxPathGenerator.swift in Sources */,
+				1A485F8D5894396022E0AD1FFA160FFB /* M13CheckboxRadioPathGenerator.swift in Sources */,
+				785801E59735E740B66F08EFEB312107 /* M13CheckboxSpiralController.swift in Sources */,
+				43D7D08ED8AAD7C89D3CE4ECA0BE6D99 /* M13CheckboxStrokeController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E552065FE273E1CE672FF9FDFD242A28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DD0E24788D1448C44C66B695609C51A /* Pods-Moovie-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC8D7186C473445B236CA9DDA020836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2097E23913270016DCEBF80CF7431EB0 /* Pods-MoovieTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55E652C7E561AD380B9ABD82E25FC3B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */;
+			targetProxy = 9AC4F98CA78A8F44D2D54B1EA7F9CEC1 /* PBXContainerItemProxy */;
+		};
+		BC9347EE4CA52B73021C0D3B58F37500 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = M13Checkbox;
+			target = 39A204FCB78FFA83E996C40FF3B4AC11 /* M13Checkbox */;
+			targetProxy = 838A4C50E113E631780CE1E8D4D0FB9D /* PBXContainerItemProxy */;
+		};
+		D8DA9677B07DD78BB43C5168175626B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = C1A410F18FCE21741D3384B1D5BAC7D7 /* SwiftyJSON */;
+			targetProxy = 1306CEE29E4EA52FA0841CFED204035F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08B908883E5F96B384BC9ADAAFD49535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76894C8D7B926C83810125DC510E99CD /* M13Checkbox.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M13Checkbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/M13Checkbox/M13Checkbox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = M13Checkbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		155AD8C6BA2E317635B3350D01BDE955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76894C8D7B926C83810125DC510E99CD /* M13Checkbox.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M13Checkbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/M13Checkbox/M13Checkbox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = M13Checkbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2F566A8BAFEC60DD79C4543F24CA834A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2358B3B7D92180B61B01DF2FA80BB096 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39B586D88467674A956F18EDD7C9BF1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF436B5BBB576FC7123DD9772E63CF97 /* Pods-MoovieTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MoovieTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoovieTests/Pods-MoovieTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MoovieTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3C2D500E2E30477DBD73DD44ABF65954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2358B3B7D92180B61B01DF2FA80BB096 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		42287DDF97330524BA3EF220F0276DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54E33BE6A51CDF1C15D43D439DE93C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 118BF750937D7758A8AA5D79ABD83476 /* Pods-MoovieUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MoovieUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoovieUITests/Pods-MoovieUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MoovieUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5AF62F6D0E2CA957403E52325820D46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B819EEBAD8CBE0450CDC1454C0C44005 /* Pods-MoovieUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MoovieUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoovieUITests/Pods-MoovieUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MoovieUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		666558B99A61BFD4188C4FC42E9C0BA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBDAF7C3B2FC03CE1BEC3A5F2241EF0A /* Pods-Moovie.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Moovie/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Moovie/Pods-Moovie.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Moovie;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE9439C22469D35336242DD983DB5C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C374C25A9F558F6EEBE5AA5AFE87C1FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C181E31A1D1B5637A4A1061473130744 /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DAE03CB003C8F6F960E8279C6D76A6FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B89C7F94822EB2630D8442C9C481CDC0 /* Pods-MoovieTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MoovieTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoovieTests/Pods-MoovieTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MoovieTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DBE183CBAFBA48A350980B9E1DD47B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C181E31A1D1B5637A4A1061473130744 /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA52C93BBE1CAF1F903C0E1B6508433F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BDB908C1DF8B990731E7AE05013D21F /* Pods-Moovie.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Moovie/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Moovie/Pods-Moovie.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Moovie;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9439C22469D35336242DD983DB5C5F /* Debug */,
+				42287DDF97330524BA3EF220F0276DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39DF5D7A578B7CAB800B0315E947DA64 /* Build configuration list for PBXNativeTarget "Pods-MoovieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AF62F6D0E2CA957403E52325820D46A /* Debug */,
+				54E33BE6A51CDF1C15D43D439DE93C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CFB42910790CF0BDBCCEBAACD6B9367 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C374C25A9F558F6EEBE5AA5AFE87C1FB /* Debug */,
+				DBE183CBAFBA48A350980B9E1DD47B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82849192F5D30F11E5410B2BDDEF5327 /* Build configuration list for PBXNativeTarget "Pods-Moovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666558B99A61BFD4188C4FC42E9C0BA8 /* Debug */,
+				EA52C93BBE1CAF1F903C0E1B6508433F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82B9AA992C6D58CE284797FADAF4F22A /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F566A8BAFEC60DD79C4543F24CA834A /* Debug */,
+				3C2D500E2E30477DBD73DD44ABF65954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3BF7F4DE56B5994C5B620209929752B /* Build configuration list for PBXNativeTarget "M13Checkbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B908883E5F96B384BC9ADAAFD49535 /* Debug */,
+				155AD8C6BA2E317635B3350D01BDE955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD8636D5F14A97EADE2067B7509714AE /* Build configuration list for PBXNativeTarget "Pods-MoovieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39B586D88467674A956F18EDD7C9BF1D /* Debug */,
+				DAE03CB003C8F6F960E8279C6D76A6FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

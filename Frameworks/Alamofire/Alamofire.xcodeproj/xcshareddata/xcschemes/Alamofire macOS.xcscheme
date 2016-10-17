@@ -14,10 +14,24 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "566D684A68E09758048DBF71B5F34369"
-               BuildableName = "BEMCheckBox.framework"
-               BlueprintName = "BEMCheckBox"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               BlueprintIdentifier = "4DD67C0A1A5C55C900ED2280"
+               BuildableName = "Alamofire.framework"
+               BlueprintName = "Alamofire macOS"
+               ReferencedContainer = "container:Alamofire.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F829C6B11A7A94F100A2CD59"
+               BuildableName = "Alamofire macOS Tests.xctest"
+               BlueprintName = "Alamofire macOS Tests"
+               ReferencedContainer = "container:Alamofire.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,7 +42,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F829C6B11A7A94F100A2CD59"
+               BuildableName = "Alamofire macOS Tests.xctest"
+               BlueprintName = "Alamofire macOS Tests"
+               ReferencedContainer = "container:Alamofire.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4DD67C0A1A5C55C900ED2280"
+            BuildableName = "Alamofire.framework"
+            BlueprintName = "Alamofire macOS"
+            ReferencedContainer = "container:Alamofire.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -45,10 +78,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "566D684A68E09758048DBF71B5F34369"
-            BuildableName = "BEMCheckBox.framework"
-            BlueprintName = "BEMCheckBox"
-            ReferencedContainer = "container:Pods.xcodeproj">
+            BlueprintIdentifier = "4DD67C0A1A5C55C900ED2280"
+            BuildableName = "Alamofire.framework"
+            BlueprintName = "Alamofire macOS"
+            ReferencedContainer = "container:Alamofire.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -63,10 +96,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "566D684A68E09758048DBF71B5F34369"
-            BuildableName = "BEMCheckBox.framework"
-            BlueprintName = "BEMCheckBox"
-            ReferencedContainer = "container:Pods.xcodeproj">
+            BlueprintIdentifier = "4DD67C0A1A5C55C900ED2280"
+            BuildableName = "Alamofire.framework"
+            BlueprintName = "Alamofire macOS"
+            ReferencedContainer = "container:Alamofire.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

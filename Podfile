@@ -6,10 +6,12 @@ project 'Moovie.xcodeproj'
 target 'Moovie' do
   # Comment this line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-
   # Pods for Moovie
   
-  pod 'M13Checkbox', '~> 3.1'
+  pod 'M13Checkbox'
+  pod 'SwiftyJSON'
+  pod 'Alamofire', '~> 4.0'
+  
   
   target 'MoovieTests' do
     inherit! :search_paths
@@ -20,5 +22,4 @@ target 'Moovie' do
     inherit! :search_paths
     # Pods for testing
   end
-
 end
