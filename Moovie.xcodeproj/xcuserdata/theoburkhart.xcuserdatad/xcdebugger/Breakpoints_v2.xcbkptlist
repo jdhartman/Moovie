@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Moovie/LaunchedBeforeViewController.swift"
-            timestampString = "497543881.160388"
+            timestampString = "498340035.219231"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
             landmarkName = "firstTimeStart(_:)"
             landmarkType = "7">
          </BreakpointContent>

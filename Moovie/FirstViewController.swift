@@ -23,6 +23,7 @@ class FirstViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
+        launchedBefore = false;
         if launchedBefore == false {
             let firstLaunchVC = self.storyboard?.instantiateViewController(withIdentifier: "firstLaunch")
             self.present((firstLaunchVC)!, animated: true, completion: nil)
@@ -30,7 +31,7 @@ class FirstViewController: UIViewController {
     }
 
     
-    public func setLaunchedBeforeTrue() {
+    open func setLaunchedBeforeTrue() {
         UserDefaults.standard.set(true, forKey: "launchedBefore")
     }
     

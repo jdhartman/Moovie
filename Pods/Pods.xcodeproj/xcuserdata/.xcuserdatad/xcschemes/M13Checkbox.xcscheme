@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'E0B9843968E7B401125E8FE1FA56DA1A'
-               BlueprintName = 'Pods-Moovie'
+               BlueprintIdentifier = '39A204FCB78FFA83E996C40FF3B4AC11'
+               BlueprintName = 'M13Checkbox'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Pods-Moovie.framework'>
+               BuildableName = 'M13Checkbox.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

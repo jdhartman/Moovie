@@ -9,7 +9,6 @@
 import Foundation
 import UIKit
 
-
 class LaunchedBefore: UIViewController {
     
     @IBOutlet weak var welcomeToMoovie: UILabel!
@@ -20,9 +19,11 @@ class LaunchedBefore: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         //UIView.animate(withDuration: 1.0, delay: 0.0, options: UIViewAnimationOptions.curveEaseIn, animations: {
             
           //  }, completion: void)
+        
     }
     
     @IBAction func firstTimeStart(_ sender: AnyObject) {

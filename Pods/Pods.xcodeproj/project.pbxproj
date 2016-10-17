@@ -10,21 +10,6 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>050EF3D5BC1F077E0B3C1E263F66FEFC</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_MoovieUITests.framework</string>
-			<key>path</key>
-			<string>Pods-MoovieUITests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
 		<key>05A9E03AF7B70C466A3ACA33A7DDF176</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -38,16 +23,87 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>083CB663F0E68AB3DD43401A6E54FD4C</key>
+		<key>06A52C67F0C45F2B3E1733CC04BAF14C</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>D5E74CD751EE635BB9A92260EA5F4577</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>08B908883E5F96B384BC9ADAAFD49535</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>DDBDD962ABACA1A244AC83D4F35D1C69</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/M13Checkbox/M13Checkbox-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/M13Checkbox/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/M13Checkbox/M13Checkbox.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>M13Checkbox</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>0A68FE8A6158D395EC4CB10F8472F165</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B4CCDF0ACEE37ED4308724E62FCDE939</string>
+				<string>3C9854452B704969D40D932335DEE0FF</string>
+				<string>0F2331BAF78D4EDDCD400CF6388C7978</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -64,10 +120,105 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0C3127E2582EE11B855FFE989A893E99</key>
+		<key>0DAFA794AF5FC68BAE578F7A2A6CB530</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-MoovieTests-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0F2331BAF78D4EDDCD400CF6388C7978</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UIKit.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>0F93834CD98074F5EBE49A489F624EE8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>M13CheckboxDisclosurePathGenerator.swift</string>
+			<key>path</key>
+			<string>Sources/Paths/M13CheckboxDisclosurePathGenerator.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0FE2FE339D9293F5F14AAF690E3701AD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>M13Checkbox-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>118BF750937D7758A8AA5D79ABD83476</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-MoovieUITests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>11E72E640456E6D61B92773E1A87DF17</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>M13CheckboxFadeController.swift</string>
+			<key>path</key>
+			<string>Sources/Managers/M13CheckboxFadeController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>122DA2E5084A4393C29BE363C764795C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0A68FE8A6158D395EC4CB10F8472F165</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>155AD8C6BA2E317635B3350D01BDE955</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>C575B494E94087D58E3DC1A419D33069</string>
+			<string>DDBDD962ABACA1A244AC83D4F35D1C69</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -89,9 +240,9 @@
 				<key>GCC_NO_COMMON_BLOCKS</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/BEMCheckBox/BEMCheckBox-prefix.pch</string>
+				<string>Target Support Files/M13Checkbox/M13Checkbox-prefix.pch</string>
 				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/BEMCheckBox/Info.plist</string>
+				<string>Target Support Files/M13Checkbox/Info.plist</string>
 				<key>INSTALL_PATH</key>
 				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
@@ -103,11 +254,11 @@
 					<string>@loader_path/Frameworks</string>
 				</array>
 				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/BEMCheckBox/BEMCheckBox.modulemap</string>
+				<string>Target Support Files/M13Checkbox/M13Checkbox.modulemap</string>
 				<key>MTL_ENABLE_DEBUG_INFO</key>
 				<string>NO</string>
 				<key>PRODUCT_NAME</key>
-				<string>BEMCheckBox</string>
+				<string>M13Checkbox</string>
 				<key>SDKROOT</key>
 				<string>iphoneos</string>
 				<key>SKIP_INSTALL</key>
@@ -124,59 +275,32 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>0DAFA794AF5FC68BAE578F7A2A6CB530</key>
+		<key>1A485F8D5894396022E0AD1FFA160FFB</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>290973E2772E414D936A27E54FA569D0</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-MoovieTests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>0E52DB55816A2CDB4DF3ED4198F325B4</key>
+		<key>1B24FB74A38BA77EE5C735BA999ABE17</key>
 		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
+			<key>fileRef</key>
+			<string>BC0BFAA62ABA68B423971339C7A71ECF</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_Moovie.framework</string>
-			<key>path</key>
-			<string>Pods-Moovie.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>118BF750937D7758A8AA5D79ABD83476</key>
+		<key>1BF2247BF9F39E7FB9935E2137887998</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-MoovieUITests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1863874CCFA7F9581F31A9BBB752BA27</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
+			<key>children</key>
 			<array>
-				<string>924A96D6A0EBE6F2635C0834C49DC92E</string>
+				<string>D31FEFAA7A261528CE59A5AB04CFDDD3</string>
 			</array>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>1D665EF2AE83FCA7A3CC8B4DDC4CED6D</key>
 		<dict>
@@ -191,37 +315,27 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1EF9A50EA708A6746D0CE918357007EB</key>
+		<key>1EF9F2E9FBAE665202191AC2AEEA5A18</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>M13CheckboxExpandController.swift</string>
 			<key>path</key>
-			<string>BEMCheckBox.modulemap</string>
+			<string>Sources/Managers/M13CheckboxExpandController.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>201141FB19AA42B8F9AA85308B8B9826</key>
+		<key>201EF9AD549CACB83DCA32CB122E85BF</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>7D7861DC9766771C7811D0D60177AB97</string>
-				<string>7F84A3AC32F2CB438507D4E1625037F4</string>
-				<string>682034598D64C5B310A4623F2CF571E5</string>
-				<string>EC3116E3DA19FFD8E283173B6DC8EED8</string>
-				<string>D300D77B71259B1CC1C017771A262443</string>
-				<string>687BF283246A0433F67FDE876B7D3315</string>
-				<string>CB66E3CB41216587704FF7DD66E873D0</string>
-			</array>
+			<key>fileRef</key>
+			<string>C0433ED054D23BF21955976C70C38115</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>BEMCheckBox</string>
-			<key>path</key>
-			<string>BEMCheckBox</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>2097E23913270016DCEBF80CF7431EB0</key>
 		<dict>
@@ -254,89 +368,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>219E8B5B339655519E4EAE869C16D83B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>54E63F84AFD6B1CEC6742A81FBBE2E6D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>21EE5C03A7D0F5B74DD3B085AB23F3CB</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>CBDAF7C3B2FC03CE1BEC3A5F2241EF0A</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Moovie/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Moovie/Pods-Moovie.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_Moovie</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>223424E4180CB91B16FF465CC84321A3</key>
+		<key>23FA9240936DD5CE494ECEF80A7F0DB4</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>wrapper.framework</string>
@@ -351,12 +383,33 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>251FA2C21F394B0631E38F6C36EF26C8</key>
+		<key>273599B4CB822A30EA751260B406877F</key>
 		<dict>
-			<key>fileRef</key>
-			<string>687BF283246A0433F67FDE876B7D3315</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>06A52C67F0C45F2B3E1733CC04BAF14C</string>
+			</array>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>290973E2772E414D936A27E54FA569D0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>M13CheckboxRadioPathGenerator.swift</string>
+			<key>path</key>
+			<string>Sources/Paths/M13CheckboxRadioPathGenerator.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>2984BF8F607A12B43A476B33D0083661</key>
 		<dict>
@@ -382,19 +435,12 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2B1CB97E723ADB1172A9A3BBC1DD112A</key>
+		<key>2A4B5DCBF10063A015D15537CF98FDDD</key>
 		<dict>
 			<key>fileRef</key>
-			<string>D300D77B71259B1CC1C017771A262443</string>
+			<string>0F2331BAF78D4EDDCD400CF6388C7978</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
 		</dict>
 		<key>2BDB908C1DF8B990731E7AE05013D21F</key>
 		<dict>
@@ -423,14 +469,43 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>2D992FC20E85B74306F72F5828F0E7D9</key>
+		<key>2F94AE6F64BBB0A04FF4F884E3128E8E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B4CCDF0ACEE37ED4308724E62FCDE939</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>31B827A0CCF2884D4497490335806F72</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E2DB48EA2FE37876B45D6663E6E42F66</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>37922C46EB57CD264A04C85E1A5D307F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>M13CheckboxGestureRecognizer.swift</string>
+			<key>path</key>
+			<string>Sources/M13CheckboxGestureRecognizer.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>38E9A0C30163B0DACDBE873D28F8F285</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>7C2BBC13CA67B5CF6E5A98F169BB9B94</string>
-				<string>0E52DB55816A2CDB4DF3ED4198F325B4</string>
-				<string>223424E4180CB91B16FF465CC84321A3</string>
-				<string>050EF3D5BC1F077E0B3C1E263F66FEFC</string>
+				<string>FE9FE97E237ACAB6099D3B4ABC72DCCD</string>
+				<string>5AE86CEF0A28C74415553EFA62DCA9E2</string>
+				<string>23FA9240936DD5CE494ECEF80A7F0DB4</string>
+				<string>A973B5D62F4190337828E3C1E9BCEF80</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -439,45 +514,30 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2FAD1B2E505F52FFB63DE91E8356A050</key>
+		<key>39A204FCB78FFA83E996C40FF3B4AC11</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>BEMCheckBox-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>36F2A5382A9A2FC23555D09A2EB7AE20</key>
-		<dict>
-			<key>fileRef</key>
-			<string>51EAFF55A5426407E4D5CC836123EBD1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>371B81F4CCEB2178A269855E41A5C911</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
+			<key>buildConfigurationList</key>
+			<string>C3BF7F4DE56B5994C5B620209929752B</string>
+			<key>buildPhases</key>
 			<array>
-				<string>219E8B5B339655519E4EAE869C16D83B</string>
+				<string>C940B65E25426FCB26DE3776C74EBBD5</string>
+				<string>DAB41FC172418755E36B3C5A651E42D0</string>
+				<string>4F702BB665B25A8452C12B805AC342CB</string>
 			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
 			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>M13Checkbox</string>
+			<key>productName</key>
+			<string>M13Checkbox</string>
+			<key>productReference</key>
+			<string>FE9FE97E237ACAB6099D3B4ABC72DCCD</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
 		</dict>
 		<key>39B586D88467674A956F18EDD7C9BF1D</key>
 		<dict>
@@ -572,16 +632,31 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3DCAB2B7CDE207B3958B6CB957FCC758</key>
+		<key>3C9854452B704969D40D932335DEE0FF</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
-			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
 			<key>name</key>
-			<string>iOS</string>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>3D6AF2BB6A417AE105E0EDC4F2C6D96E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>M13Checkbox+IB.swift</string>
+			<key>path</key>
+			<string>Sources/M13Checkbox+IB.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -597,6 +672,26 @@
 			<string>Pods-Moovie-frameworks.sh</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3EAEA76655C44E7456E2FC7A50B14BC8</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>44A7FF35D9AC46974AAE09B6006F35D7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>40CBAC8C47792C8A2560EEB55E42346F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4EC636134A234526C7BE31EC85ED4F11</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>42287DDF97330524BA3EF220F0276DA6</key>
 		<dict>
@@ -669,6 +764,27 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
+		<key>43D7D08ED8AAD7C89D3CE4ECA0BE6D99</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B9870FF8D8BF4F59504FB90440400DA4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>44A7FF35D9AC46974AAE09B6006F35D7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>54E63F84AFD6B1CEC6742A81FBBE2E6D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
 		<key>4556C68DC24B9DDAE804AF83D7BF5309</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -693,31 +809,44 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>51DD42B580B59B66C16A6939623CF0C5</key>
+		<key>4B8E8F99D1CB140EFC1B7DEE3D9F0FE7</key>
 		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
 			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>566D684A68E09758048DBF71B5F34369</string>
-			<key>remoteInfo</key>
-			<string>BEMCheckBox</string>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>M13Checkbox</string>
+			<key>target</key>
+			<string>39A204FCB78FFA83E996C40FF3B4AC11</string>
+			<key>targetProxy</key>
+			<string>EFFEC7360787F99A566A8CAB3F07F8D5</string>
 		</dict>
-		<key>51EAFF55A5426407E4D5CC836123EBD1</key>
+		<key>4EC636134A234526C7BE31EC85ED4F11</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>M13CheckboxDotController.swift</string>
 			<key>path</key>
-			<string>BEMCheckBox-umbrella.h</string>
+			<string>Sources/Managers/M13CheckboxDotController.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4F702BB665B25A8452C12B805AC342CB</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>D09F95680F0713A22C82A6D0EB527CD9</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>5382786754D0A0DE4F6A665A232FAB58</key>
 		<dict>
@@ -813,51 +942,20 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>566D684A68E09758048DBF71B5F34369</key>
+		<key>5AE86CEF0A28C74415553EFA62DCA9E2</key>
 		<dict>
-			<key>buildConfigurationList</key>
-			<string>F43DF450DAB678D7927B8943ED050C60</string>
-			<key>buildPhases</key>
-			<array>
-				<string>B4F740E6DCFCCADA9947B77CA5DAC470</string>
-				<string>63E1D8A6AB47B7F867FE53F9EC65DD57</string>
-				<string>61EE271EB8657C31F241577953B9778C</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
+			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>BEMCheckBox</string>
-			<key>productName</key>
-			<string>BEMCheckBox</string>
-			<key>productReference</key>
-			<string>7C2BBC13CA67B5CF6E5A98F169BB9B94</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>5A58BFEF4C161BFEFB4DA8798D071842</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EC3116E3DA19FFD8E283173B6DC8EED8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5A677E3ECB228BFEFB3F246FEDF8ABE4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>682034598D64C5B310A4623F2CF571E5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>Pods_Moovie.framework</string>
+			<key>path</key>
+			<string>Pods-Moovie.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>5AF62F6D0E2CA957403E52325820D46A</key>
 		<dict>
@@ -953,16 +1051,34 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>5E2FDC462A7F73A5C9251B3F693CAF67</key>
+		<key>5D592141011A18F1F9D0923E80EC4B49</key>
 		<dict>
+			<key>fileRef</key>
+			<string>70C797BEB2EE46B7F38D742CA3F04017</string>
 			<key>isa</key>
-			<string>PBXTargetDependency</string>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5DA55CEAC1D7A613CD15FA06E68861F4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>855F7712F6B9BF9E08E41362EFA62CAF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5E232599B46EB5C769F5E5E5B01B018A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>BEMCheckBox</string>
-			<key>target</key>
-			<string>566D684A68E09758048DBF71B5F34369</string>
-			<key>targetProxy</key>
-			<string>51DD42B580B59B66C16A6939623CF0C5</string>
+			<string>M13CheckboxAnimationGenerator.swift</string>
+			<key>path</key>
+			<string>Sources/M13CheckboxAnimationGenerator.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>5FFE4BDE08AB8F9D38327CC8A95B2912</key>
 		<dict>
@@ -977,22 +1093,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>61EE271EB8657C31F241577953B9778C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F203C83248BB642D21F79514B95C2439</string>
-				<string>36F2A5382A9A2FC23555D09A2EB7AE20</string>
-				<string>5A677E3ECB228BFEFB3F246FEDF8ABE4</string>
-				<string>2B1CB97E723ADB1172A9A3BBC1DD112A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
 		<key>62AC1D4DA112EB05CF4D5917705A0381</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1006,55 +1106,32 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6345DCBD7B908CEC297B350A41A087DE</key>
+		<key>6755351A91515B74AF555F06531B94E0</key>
 		<dict>
-			<key>fileRef</key>
-			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>63E1D8A6AB47B7F867FE53F9EC65DD57</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
+			<key>children</key>
 			<array>
-				<string>6345DCBD7B908CEC297B350A41A087DE</string>
+				<string>AC11C76668DF20EFB64A2C948D86C219</string>
+				<string>8627BC620B6C7C7E45D30E136690B475</string>
+				<string>DDBDD962ABACA1A244AC83D4F35D1C69</string>
+				<string>E6D8DE6EF3DFF6462F210730AAED61BC</string>
+				<string>7C28F48511775E238AD423B54695157A</string>
+				<string>0FE2FE339D9293F5F14AAF690E3701AD</string>
 			</array>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>682034598D64C5B310A4623F2CF571E5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>BEMCheckBox.h</string>
+			<string>Support Files</string>
 			<key>path</key>
-			<string>Classes/BEMCheckBox.h</string>
+			<string>../Target Support Files/M13Checkbox</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>687BF283246A0433F67FDE876B7D3315</key>
+		<key>6BD3C5F3E5B1A0B5481420A6B7F8CB2D</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>8B50CB958D9C9D601E9BD93B20BC9CC0</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>BEMPathManager.m</string>
-			<key>path</key>
-			<string>Classes/BEMPathManager.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>6E053FA47505B554E7C212EB61A986D7</key>
 		<dict>
@@ -1080,6 +1157,21 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>70C797BEB2EE46B7F38D742CA3F04017</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>M13CheckboxCheckPathGenerator.swift</string>
+			<key>path</key>
+			<string>Sources/Paths/M13CheckboxCheckPathGenerator.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>717A20E40BCA7D1DAAEDCD410E476DD2</key>
 		<dict>
 			<key>buildConfigurationList</key>
@@ -1101,26 +1193,18 @@
 			<key>productName</key>
 			<string>Pods-MoovieUITests</string>
 			<key>productReference</key>
-			<string>050EF3D5BC1F077E0B3C1E263F66FEFC</string>
+			<string>A973B5D62F4190337828E3C1E9BCEF80</string>
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
-		<key>7C2BBC13CA67B5CF6E5A98F169BB9B94</key>
+		<key>785801E59735E740B66F08EFEB312107</key>
 		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
+			<key>fileRef</key>
+			<string>8BB3880A6D0BB81DF6EC558FE6F58C67</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>BEMCheckBox.framework</string>
-			<key>path</key>
-			<string>BEMCheckBox.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>7D7861DC9766771C7811D0D60177AB97</key>
+		<key>7C28F48511775E238AD423B54695157A</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1128,10 +1212,8 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>BEMAnimationManager.h</string>
 			<key>path</key>
-			<string>Classes/BEMAnimationManager.h</string>
+			<string>M13Checkbox-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1140,9 +1222,9 @@
 			<key>children</key>
 			<array>
 				<string>93A4A3777CF96A4AAC1D13BA6DCCEA73</string>
-				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
-				<string>A000AFFD5004012C0B35CEF34DCF643F</string>
-				<string>2D992FC20E85B74306F72F5828F0E7D9</string>
+				<string>122DA2E5084A4393C29BE363C764795C</string>
+				<string>1BF2247BF9F39E7FB9935E2137887998</string>
+				<string>38E9A0C30163B0DACDBE873D28F8F285</string>
 				<string>C16DE7A3B2766A157D3D98314ED3A4D4</string>
 			</array>
 			<key>isa</key>
@@ -1150,105 +1232,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7F84A3AC32F2CB438507D4E1625037F4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>BEMAnimationManager.m</string>
-			<key>path</key>
-			<string>Classes/BEMAnimationManager.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7FB7371C12AFE7ABE7418F9855A0EAB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5382786754D0A0DE4F6A665A232FAB58</string>
-				<string>4556C68DC24B9DDAE804AF83D7BF5309</string>
-				<string>0DAFA794AF5FC68BAE578F7A2A6CB530</string>
-				<string>B67C4D0D92A7DE3AE22E27751C77CB76</string>
-				<string>C1056A6610D825BD64436DD91BEAEDC4</string>
-				<string>62AC1D4DA112EB05CF4D5917705A0381</string>
-				<string>1D665EF2AE83FCA7A3CC8B4DDC4CED6D</string>
-				<string>4B03CC7E096CD1C54DCBCA852A3FD4C1</string>
-				<string>AF436B5BBB576FC7123DD9772E63CF97</string>
-				<string>B89C7F94822EB2630D8442C9C481CDC0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-MoovieTests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-MoovieTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8EB79EDF5CEA74248BF6D108004218B8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>AC68E405AAEDEB7D5A23B086B82AC5F3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>91F8B69ED3B1BFD1294F15ACECA49638</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>924A96D6A0EBE6F2635C0834C49DC92E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D5E74CD751EE635BB9A92260EA5F4577</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>93A4A3777CF96A4AAC1D13BA6DCCEA73</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>text.script.ruby</string>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>9854E55A182107E44B48F8F04093B0A5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>91F8B69ED3B1BFD1294F15ACECA49638</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>98849304ACA3A86A212592DF3403F7D8</key>
+		<key>7F824EF6510615083B03796F9DE19E72</key>
 		<dict>
 			<key>baseConfigurationReference</key>
 			<string>2BDB908C1DF8B990731E7AE05013D21F</string>
@@ -1316,18 +1300,270 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>A000AFFD5004012C0B35CEF34DCF643F</key>
+		<key>7FB7371C12AFE7ABE7418F9855A0EAB0</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>201141FB19AA42B8F9AA85308B8B9826</string>
+				<string>5382786754D0A0DE4F6A665A232FAB58</string>
+				<string>4556C68DC24B9DDAE804AF83D7BF5309</string>
+				<string>0DAFA794AF5FC68BAE578F7A2A6CB530</string>
+				<string>B67C4D0D92A7DE3AE22E27751C77CB76</string>
+				<string>C1056A6610D825BD64436DD91BEAEDC4</string>
+				<string>62AC1D4DA112EB05CF4D5917705A0381</string>
+				<string>1D665EF2AE83FCA7A3CC8B4DDC4CED6D</string>
+				<string>4B03CC7E096CD1C54DCBCA852A3FD4C1</string>
+				<string>AF436B5BBB576FC7123DD9772E63CF97</string>
+				<string>B89C7F94822EB2630D8442C9C481CDC0</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Pods</string>
+			<string>Pods-MoovieTests</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-MoovieTests</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>804C7201854744A61E37A7C3346A0D10</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E6D8DE6EF3DFF6462F210730AAED61BC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>80F05C3CF8BE816390219F1DE6901762</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9139361D6B937DAFD5037382560F09A4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>855F7712F6B9BF9E08E41362EFA62CAF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>M13Checkbox.swift</string>
+			<key>path</key>
+			<string>Sources/M13Checkbox.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8627BC620B6C7C7E45D30E136690B475</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>M13Checkbox.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8B50CB958D9C9D601E9BD93B20BC9CC0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>M13CheckboxPathGenerator.swift</string>
+			<key>path</key>
+			<string>Sources/Paths/M13CheckboxPathGenerator.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8BB3880A6D0BB81DF6EC558FE6F58C67</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>M13CheckboxSpiralController.swift</string>
+			<key>path</key>
+			<string>Sources/Managers/M13CheckboxSpiralController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EB79EDF5CEA74248BF6D108004218B8</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>AC68E405AAEDEB7D5A23B086B82AC5F3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9139361D6B937DAFD5037382560F09A4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3C9854452B704969D40D932335DEE0FF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>91F8B69ED3B1BFD1294F15ACECA49638</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3C9854452B704969D40D932335DEE0FF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9224E8A3C6C76CBA476853249200C572</key>
+		<dict>
+			<key>fileRef</key>
+			<string>37922C46EB57CD264A04C85E1A5D307F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>93A4A3777CF96A4AAC1D13BA6DCCEA73</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>text.script.ruby</string>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>Podfile</string>
+			<key>path</key>
+			<string>../Podfile</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>xcLanguageSpecificationIdentifier</key>
+			<string>xcode.lang.ruby</string>
+		</dict>
+		<key>96D1C9FA3286DC574702AAE884A8B3F0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3D6AF2BB6A417AE105E0EDC4F2C6D96E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9854E55A182107E44B48F8F04093B0A5</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>91F8B69ED3B1BFD1294F15ACECA49638</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9937E968256B967D21EAB369A281E1B4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>M13CheckboxController.swift</string>
+			<key>path</key>
+			<string>Sources/M13CheckboxController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9DFB68718B029555D1A1625EE82ACEB8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3C9854452B704969D40D932335DEE0FF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9FFBBA71FFCCD243C0265CD34E6C97A5</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>CBDAF7C3B2FC03CE1BEC3A5F2241EF0A</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-Moovie/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-Moovie/Pods-Moovie.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_Moovie</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
 		</dict>
 		<key>A09D4DB33FE738DC53338B9F551F81C4</key>
 		<dict>
@@ -1342,52 +1578,33 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>A30DAB5ACA812C514852FF4D7B110EE9</key>
+		<key>A973B5D62F4190337828E3C1E9BCEF80</key>
 		<dict>
-			<key>buildConfigurationList</key>
-			<string>BD0D1E579AC476B06A6E01F4427C6B73</string>
-			<key>buildPhases</key>
-			<array>
-				<string>1863874CCFA7F9581F31A9BBB752BA27</string>
-				<string>A5F1C24F2BC4E03BB372CDBAAE123C14</string>
-				<string>371B81F4CCEB2178A269855E41A5C911</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>5E2FDC462A7F73A5C9251B3F693CAF67</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Moovie</string>
-			<key>productName</key>
-			<string>Pods-Moovie</string>
-			<key>productReference</key>
-			<string>0E52DB55816A2CDB4DF3ED4198F325B4</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>A5F1C24F2BC4E03BB372CDBAAE123C14</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>DF4727552C1C78F3F58AB0EDA8354644</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
 			<string>0</string>
-		</dict>
-		<key>A8E61353B700FBE1D95064A39107B7D8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7F84A3AC32F2CB438507D4E1625037F4</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods_MoovieUITests.framework</string>
+			<key>path</key>
+			<string>Pods-MoovieUITests.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>AC11C76668DF20EFB64A2C948D86C219</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>AC68E405AAEDEB7D5A23B086B82AC5F3</key>
 		<dict>
@@ -1402,6 +1619,13 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>AC91F25226272C593CFD5642DE7A3050</key>
+		<dict>
+			<key>fileRef</key>
+			<string>11E72E640456E6D61B92773E1A87DF17</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>AE9439C22469D35336242DD983DB5C5F</key>
 		<dict>
@@ -1494,41 +1718,32 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B0AC96EE28292582DCD83BCE58C0CCD9</key>
+		<key>B47BCFEE4B580192A88E8634191F33CA</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildConfigurations</key>
+			<array>
+				<string>9FFBBA71FFCCD243C0265CD34E6C97A5</string>
+				<string>7F824EF6510615083B03796F9DE19E72</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>B4CCDF0ACEE37ED4308724E62FCDE939</key>
+		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreGraphics.framework</string>
 			<key>path</key>
-			<string>BEMCheckBox-prefix.pch</string>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B35F99DF066F7D77FB3DA464DEAC80C1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FAD1B2E505F52FFB63DE91E8356A050</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B4F740E6DCFCCADA9947B77CA5DAC470</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A8E61353B700FBE1D95064A39107B7D8</string>
-				<string>B35F99DF066F7D77FB3DA464DEAC80C1</string>
-				<string>5A58BFEF4C161BFEFB4DA8798D071842</string>
-				<string>251FA2C21F394B0631E38F6C36EF26C8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>DEVELOPER_DIR</string>
 		</dict>
 		<key>B67C4D0D92A7DE3AE22E27751C77CB76</key>
 		<dict>
@@ -1583,32 +1798,50 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
+		<key>B9870FF8D8BF4F59504FB90440400DA4</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>3DCAB2B7CDE207B3958B6CB957FCC758</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>Frameworks</string>
+			<string>M13CheckboxStrokeController.swift</string>
+			<key>path</key>
+			<string>Sources/Managers/M13CheckboxStrokeController.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>BD0D1E579AC476B06A6E01F4427C6B73</key>
+		<key>B9FC630B8A4945AACB04A9526059523B</key>
 		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>21EE5C03A7D0F5B74DD3B085AB23F3CB</string>
-				<string>98849304ACA3A86A212592DF3403F7D8</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>M13CheckboxFillController.swift</string>
+			<key>path</key>
+			<string>Sources/Managers/M13CheckboxFillController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC0BFAA62ABA68B423971339C7A71ECF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>M13CheckboxBounceController.swift</string>
+			<key>path</key>
+			<string>Sources/Managers/M13CheckboxBounceController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>BE555A42D40957881F377C58DD2C0439</key>
 		<dict>
@@ -1626,69 +1859,24 @@
 		<key>BEABFAD9FDB04159E2154CB79B347655</key>
 		<dict>
 			<key>fileRef</key>
-			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
+			<string>3C9854452B704969D40D932335DEE0FF</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>BEDBD46DBA287829D383D0C3389A0C9C</key>
+		<key>C0433ED054D23BF21955976C70C38115</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C575B494E94087D58E3DC1A419D33069</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/BEMCheckBox/BEMCheckBox-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/BEMCheckBox/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/BEMCheckBox/BEMCheckBox.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>BEMCheckBox</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>Debug</string>
+			<string>M13CheckboxAddRemovePathGenerator.swift</string>
+			<key>path</key>
+			<string>Sources/Paths/M13CheckboxAddRemovePathGenerator.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>C1056A6610D825BD64436DD91BEAEDC4</key>
 		<dict>
@@ -1718,18 +1906,57 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C575B494E94087D58E3DC1A419D33069</key>
+		<key>C3BF7F4DE56B5994C5B620209929752B</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildConfigurations</key>
+			<array>
+				<string>08B908883E5F96B384BC9ADAAFD49535</string>
+				<string>155AD8C6BA2E317635B3350D01BDE955</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>BEMCheckBox.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>C789A69CF95BD3DF60E8F15CAD5F13C4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B9FC630B8A4945AACB04A9526059523B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C940B65E25426FCB26DE3776C74EBBD5</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>96D1C9FA3286DC574702AAE884A8B3F0</string>
+				<string>804C7201854744A61E37A7C3346A0D10</string>
+				<string>5DA55CEAC1D7A613CD15FA06E68861F4</string>
+				<string>201EF9AD549CACB83DCA32CB122E85BF</string>
+				<string>D96E3A40893AA4A1D4BFFCD9BAB2EFFE</string>
+				<string>1B24FB74A38BA77EE5C735BA999ABE17</string>
+				<string>5D592141011A18F1F9D0923E80EC4B49</string>
+				<string>DC29F96A006DEB0559EADB5F27D2DCEE</string>
+				<string>FF1AFB7E29980A77C576C36804757091</string>
+				<string>40CBAC8C47792C8A2560EEB55E42346F</string>
+				<string>CDC529F72C9CE32AD31CC0560BBB017D</string>
+				<string>AC91F25226272C593CFD5642DE7A3050</string>
+				<string>C789A69CF95BD3DF60E8F15CAD5F13C4</string>
+				<string>31B827A0CCF2884D4497490335806F72</string>
+				<string>9224E8A3C6C76CBA476853249200C572</string>
+				<string>6BD3C5F3E5B1A0B5481420A6B7F8CB2D</string>
+				<string>1A485F8D5894396022E0AD1FFA160FFB</string>
+				<string>785801E59735E740B66F08EFEB312107</string>
+				<string>43D7D08ED8AAD7C89D3CE4ECA0BE6D99</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>C9C76841AA95FF726ED9650C880A6CC1</key>
 		<dict>
@@ -1744,26 +1971,6 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>CB66E3CB41216587704FF7DD66E873D0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1EF9A50EA708A6746D0CE918357007EB</string>
-				<string>C575B494E94087D58E3DC1A419D33069</string>
-				<string>2FAD1B2E505F52FFB63DE91E8356A050</string>
-				<string>B0AC96EE28292582DCD83BCE58C0CCD9</string>
-				<string>51EAFF55A5426407E4D5CC836123EBD1</string>
-				<string>083CB663F0E68AB3DD43401A6E54FD4C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/BEMCheckBox</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>CBDAF7C3B2FC03CE1BEC3A5F2241EF0A</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1777,18 +1984,26 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>CEC22C73C1608DFA5D5D78BDCB218219</key>
+		<key>CDC529F72C9CE32AD31CC0560BBB017D</key>
 		<dict>
+			<key>fileRef</key>
+			<string>1EF9F2E9FBAE665202191AC2AEEA5A18</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D09F95680F0713A22C82A6D0EB527CD9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0FE2FE339D9293F5F14AAF690E3701AD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>D15D59427260A9466F112BBFDAF4755F</key>
 		<dict>
@@ -1803,18 +2018,36 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D300D77B71259B1CC1C017771A262443</key>
+		<key>D31FEFAA7A261528CE59A5AB04CFDDD3</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>855F7712F6B9BF9E08E41362EFA62CAF</string>
+				<string>3D6AF2BB6A417AE105E0EDC4F2C6D96E</string>
+				<string>C0433ED054D23BF21955976C70C38115</string>
+				<string>5E232599B46EB5C769F5E5E5B01B018A</string>
+				<string>BC0BFAA62ABA68B423971339C7A71ECF</string>
+				<string>70C797BEB2EE46B7F38D742CA3F04017</string>
+				<string>9937E968256B967D21EAB369A281E1B4</string>
+				<string>0F93834CD98074F5EBE49A489F624EE8</string>
+				<string>4EC636134A234526C7BE31EC85ED4F11</string>
+				<string>1EF9F2E9FBAE665202191AC2AEEA5A18</string>
+				<string>11E72E640456E6D61B92773E1A87DF17</string>
+				<string>B9FC630B8A4945AACB04A9526059523B</string>
+				<string>E2DB48EA2FE37876B45D6663E6E42F66</string>
+				<string>37922C46EB57CD264A04C85E1A5D307F</string>
+				<string>8B50CB958D9C9D601E9BD93B20BC9CC0</string>
+				<string>290973E2772E414D936A27E54FA569D0</string>
+				<string>8BB3880A6D0BB81DF6EC558FE6F58C67</string>
+				<string>B9870FF8D8BF4F59504FB90440400DA4</string>
+				<string>6755351A91515B74AF555F06531B94E0</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>BEMPathManager.h</string>
+			<string>M13Checkbox</string>
 			<key>path</key>
-			<string>Classes/BEMPathManager.h</string>
+			<string>M13Checkbox</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1844,7 +2077,7 @@
 			<key>mainGroup</key>
 			<string>7DB346D0F39D3F0E887471402A8071AB</string>
 			<key>productRefGroup</key>
-			<string>2D992FC20E85B74306F72F5828F0E7D9</string>
+			<string>38E9A0C30163B0DACDBE873D28F8F285</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -1853,8 +2086,8 @@
 			<string></string>
 			<key>targets</key>
 			<array>
-				<string>566D684A68E09758048DBF71B5F34369</string>
-				<string>A30DAB5ACA812C514852FF4D7B110EE9</string>
+				<string>39A204FCB78FFA83E996C40FF3B4AC11</string>
+				<string>E0B9843968E7B401125E8FE1FA56DA1A</string>
 				<string>F275DD89F3C907CAB5096D16F7F4810B</string>
 				<string>717A20E40BCA7D1DAAEDCD410E476DD2</string>
 			</array>
@@ -1898,12 +2131,34 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>D96E3A40893AA4A1D4BFFCD9BAB2EFFE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5E232599B46EB5C769F5E5E5B01B018A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>DA7A8F673709254A9D0DBE2F785FE4BF</key>
 		<dict>
 			<key>fileRef</key>
 			<string>5B07FDDAFE6895834F578CA97510545A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>DAB41FC172418755E36B3C5A651E42D0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>2F94AE6F64BBB0A04FF4F884E3128E8E</string>
+				<string>9DFB68718B029555D1A1625EE82ACEB8</string>
+				<string>2A4B5DCBF10063A015D15537CF98FDDD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>DAE03CB003C8F6F960E8279C6D76A6FF</key>
 		<dict>
@@ -1973,6 +2228,13 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
+		<key>DC29F96A006DEB0559EADB5F27D2DCEE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9937E968256B967D21EAB369A281E1B4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>DD8636D5F14A97EADE2067B7509714AE</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -1987,6 +2249,19 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
+		<key>DDBDD962ABACA1A244AC83D4F35D1C69</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>M13Checkbox.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>DEF475E448DD2CB8A60D74C1B4BFC708</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2000,14 +2275,49 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DF4727552C1C78F3F58AB0EDA8354644</key>
+		<key>E0B9843968E7B401125E8FE1FA56DA1A</key>
 		<dict>
-			<key>fileRef</key>
-			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
+			<key>buildConfigurationList</key>
+			<string>B47BCFEE4B580192A88E8634191F33CA</string>
+			<key>buildPhases</key>
+			<array>
+				<string>273599B4CB822A30EA751260B406877F</string>
+				<string>80F05C3CF8BE816390219F1DE6901762</string>
+				<string>3EAEA76655C44E7456E2FC7A50B14BC8</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>4B8E8F99D1CB140EFC1B7DEE3D9F0FE7</string>
+			</array>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-Moovie</string>
+			<key>productName</key>
+			<string>Pods-Moovie</string>
+			<key>productReference</key>
+			<string>5AE86CEF0A28C74415553EFA62DCA9E2</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
 		</dict>
-		<key>EC3116E3DA19FFD8E283173B6DC8EED8</key>
+		<key>E2DB48EA2FE37876B45D6663E6E42F66</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>M13CheckboxFlatController.swift</string>
+			<key>path</key>
+			<string>Sources/Managers/M13CheckboxFlatController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E6D8DE6EF3DFF6462F210730AAED61BC</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2015,10 +2325,8 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>BEMCheckBox.m</string>
 			<key>path</key>
-			<string>Classes/BEMCheckBox.m</string>
+			<string>M13Checkbox-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2035,19 +2343,18 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>F203C83248BB642D21F79514B95C2439</key>
+		<key>EFFEC7360787F99A566A8CAB3F07F8D5</key>
 		<dict>
-			<key>fileRef</key>
-			<string>7D7861DC9766771C7811D0D60177AB97</string>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>39A204FCB78FFA83E996C40FF3B4AC11</string>
+			<key>remoteInfo</key>
+			<string>M13Checkbox</string>
 		</dict>
 		<key>F275DD89F3C907CAB5096D16F7F4810B</key>
 		<dict>
@@ -2070,23 +2377,31 @@
 			<key>productName</key>
 			<string>Pods-MoovieTests</string>
 			<key>productReference</key>
-			<string>223424E4180CB91B16FF465CC84321A3</string>
+			<string>23FA9240936DD5CE494ECEF80A7F0DB4</string>
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
-		<key>F43DF450DAB678D7927B8943ED050C60</key>
+		<key>FE9FE97E237ACAB6099D3B4ABC72DCCD</key>
 		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>BEDBD46DBA287829D383D0C3389A0C9C</string>
-				<string>0C3127E2582EE11B855FFE989A893E99</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
 			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>M13Checkbox.framework</string>
+			<key>path</key>
+			<string>M13Checkbox.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>FF1AFB7E29980A77C576C36804757091</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0F93834CD98074F5EBE49A489F624EE8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>FF202BEF2F9517F62D082DB2FA1B6076</key>
 		<dict>
